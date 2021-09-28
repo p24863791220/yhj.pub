@@ -1,0 +1,30 @@
+AutoCheck_Load
+Emgu.CV.Util.CvException: OpenCV: FAILED: fs.is_open(). Can't open "D:\Inventec\铻轰笣鑷姩閿佷粯\铻轰笣鑷姩閿佷粯\bin\Debug\textcnn\frozen_east_text_detection.pb"
+   在 Emgu.CV.CvInvoke.CvErrorHandler(Int32 status, IntPtr funcName, IntPtr errMsg, IntPtr fileName, Int32 line, IntPtr userData)
+   在 Emgu.CV.Dnn.DnnInvoke.cveReadNet(IntPtr model, IntPtr config, IntPtr framework)
+   在 Emgu.CV.Dnn.DnnInvoke.ReadNet(String model, String config, String framework)
+   在 螺丝自动锁付.AutoCheck.AutoCheck_Load(Object sender, EventArgs e) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\AutoCheck.cs:行号 475
+2021/9/6 19:24:16
+AutoCheck_Load
+Emgu.CV.Util.CvException: OpenCV: FAILED: fs.is_open(). Can't open "D:\Inventec\铻轰笣鑷姩閿佷粯\铻轰笣鑷姩閿佷粯\bin\Debug\textcnn\frozen_east_text_detection.pb"
+   在 Emgu.CV.CvInvoke.CvErrorHandler(Int32 status, IntPtr funcName, IntPtr errMsg, IntPtr fileName, Int32 line, IntPtr userData)
+   在 Emgu.CV.Dnn.DnnInvoke.cveReadNet(IntPtr model, IntPtr config, IntPtr framework)
+   在 Emgu.CV.Dnn.DnnInvoke.ReadNet(String model, String config, String framework)
+   在 螺丝自动锁付.AutoCheck.AutoCheck_Load(Object sender, EventArgs e) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\AutoCheck.cs:行号 475
+2021/9/6 19:28:03
+AutoCheck_Load
+Emgu.CV.Util.CvException: OpenCV: FAILED: fs.is_open(). Can't open "D:\Inventec\铻轰笣鑷姩閿佷粯\铻轰笣鑷姩閿佷粯\bin\Debug\textcnn\frozen_east_text_detection.pb"
+   在 Emgu.CV.CvInvoke.CvErrorHandler(Int32 status, IntPtr funcName, IntPtr errMsg, IntPtr fileName, Int32 line, IntPtr userData)
+   在 Emgu.CV.Dnn.DnnInvoke.cveReadNet(IntPtr model, IntPtr config, IntPtr framework)
+   在 Emgu.CV.Dnn.DnnInvoke.ReadNet(String model, String config, String framework)
+   在 螺丝自动锁付.AutoCheck.AutoCheck_Load(Object sender, EventArgs e) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\AutoCheck.cs:行号 475
+2021/9/6 19:43:33
+kuangxuanButton_Click
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 螺丝自动锁付.GrayBitmapData.fengguo(Int32 startxp, Int32 startyp, Int32 widthf, Int32 heightf, Int32 lianjiePMinx) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\threecs\xiazhai.cs:行号 509
+   在 螺丝自动锁付.AutoCheck.fengguoButton_Click(Object sender, EventArgs e) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\AutoCheck.cs:行号 1134
+2021/9/6 20:08:52
+toolopenVideo_Click
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 螺丝自动锁付.AutoCheck.toolopenVideo_Click(Object sender, String num, Boolean open) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\AutoCheck.cs:行号 4017
+2021/9/7 15:20:32

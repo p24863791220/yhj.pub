@@ -1,0 +1,75 @@
+
+
+
+****************************D:\Inventec\螺丝自动锁付\螺丝自动锁付\bin\Debug\Images\Loading.gif****************************
+【出现时间】：2021/9/10 15:32:35
+【程序名称】：System.Drawing
+【异常类型】：FileNotFoundException
+【异常信息】：D:\Inventec\螺丝自动锁付\螺丝自动锁付\bin\Debug\Images\Loading.gif
+【堆栈调用】：   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 SignalCommunication.MyOpaqueLayer..ctor(Int32 Alpha, Boolean IsShowLoadingImage) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal\MyOpaqueLayer.cs:行号 41
+   在 SignalCommunication.LoadingHelper.ShowOpaqueLayer(Control control, Int32 alpha, Boolean isShowLoadingImage) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal\LoadingHelper.cs:行号 35
+【错误函数】：System.Drawing.Image FromFile(System.String, Boolean)
+***************************************************************
+
+
+
+
+****************************D:\Inventec\螺丝自动锁付\螺丝自动锁付\bin\Debug\Images\Loading.gif****************************
+【出现时间】：2021/9/10 15:34:00
+【程序名称】：System.Drawing
+【异常类型】：FileNotFoundException
+【异常信息】：D:\Inventec\螺丝自动锁付\螺丝自动锁付\bin\Debug\Images\Loading.gif
+【堆栈调用】：   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 SignalCommunication.MyOpaqueLayer..ctor(Int32 Alpha, Boolean IsShowLoadingImage) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal\MyOpaqueLayer.cs:行号 41
+   在 SignalCommunication.LoadingHelper.ShowOpaqueLayer(Control control, Int32 alpha, Boolean isShowLoadingImage) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal\LoadingHelper.cs:行号 35
+【错误函数】：System.Drawing.Image FromFile(System.String, Boolean)
+***************************************************************
+
+
+
+
+****************************D:\Inventec\螺丝自动锁付\螺丝自动锁付\bin\Debug\Images\Loading.gif****************************
+【出现时间】：2021/9/10 15:34:20
+【程序名称】：System.Drawing
+【异常类型】：FileNotFoundException
+【异常信息】：D:\Inventec\螺丝自动锁付\螺丝自动锁付\bin\Debug\Images\Loading.gif
+【堆栈调用】：   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 SignalCommunication.MyOpaqueLayer..ctor(Int32 Alpha, Boolean IsShowLoadingImage) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal\MyOpaqueLayer.cs:行号 41
+   在 SignalCommunication.LoadingHelper.ShowOpaqueLayer(Control control, Int32 alpha, Boolean isShowLoadingImage) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal\LoadingHelper.cs:行号 35
+【错误函数】：System.Drawing.Image FromFile(System.String, Boolean)
+***************************************************************
+
+
+
+
+****************************D:\Inventec\螺丝自动锁付\螺丝自动锁付\bin\Debug\Images\Loading.gif****************************
+【出现时间】：2021/9/10 15:39:28
+【程序名称】：System.Drawing
+【异常类型】：FileNotFoundException
+【异常信息】：D:\Inventec\螺丝自动锁付\螺丝自动锁付\bin\Debug\Images\Loading.gif
+【堆栈调用】：   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 SignalCommunication.MyOpaqueLayer..ctor(Int32 Alpha, Boolean IsShowLoadingImage) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal\MyOpaqueLayer.cs:行号 41
+   在 SignalCommunication.LoadingHelper.ShowOpaqueLayer(Control control, Int32 alpha, Boolean isShowLoadingImage) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal\LoadingHelper.cs:行号 35
+【错误函数】：System.Drawing.Image FromFile(System.String, Boolean)
+***************************************************************
+
+
+
+
+****************************D:\Inventec\螺丝自动锁付\螺丝自动锁付\bin\Debug\Images\Loading.gif****************************
+【出现时间】：2021/9/10 15:42:13
+【程序名称】：System.Drawing
+【异常类型】：FileNotFoundException
+【异常信息】：D:\Inventec\螺丝自动锁付\螺丝自动锁付\bin\Debug\Images\Loading.gif
+【堆栈调用】：   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 SignalCommunication.MyOpaqueLayer..ctor(Int32 Alpha, Boolean IsShowLoadingImage) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal\MyOpaqueLayer.cs:行号 41
+   在 SignalCommunication.LoadingHelper.ShowOpaqueLayer(Control control, Int32 alpha, Boolean isShowLoadingImage) 位置 D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal\LoadingHelper.cs:行号 35
+【错误函数】：System.Drawing.Image FromFile(System.String, Boolean)
+***************************************************************
+

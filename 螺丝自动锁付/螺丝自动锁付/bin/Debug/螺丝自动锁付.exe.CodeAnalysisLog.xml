@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\enterprise\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="D:\Inventec\螺丝自动锁付\螺丝自动锁付\bin\Debug\螺丝自动锁付.exe">
+   <Modules>
+    <Module Name="螺丝自动锁付.exe">
+     <Namespaces>
+      <Namespace Name="HslCommunicationDemo">
+       <Types>
+        <Type Name="FormS7Server" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="s7NetServer" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付\H" File="FormS7Server.designer.cs" Line="15">'FormS7Server' 包含 IDisposable 类型的字段 'FormS7Server.s7NetServer': 'SiemensS7Server'。请更改 'FormS7Server' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FormSiemens" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="siemensTcpNet" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付\H" File="FormSiemens.designer.cs" Line="15">'FormSiemens' 包含 IDisposable 类型的字段 'FormSiemens.siemensTcpNet': 'SiemensS7Net'。请更改 'FormSiemens' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FormSiemensFW" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="siemensFWNet" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付\H" File="FormSiemensFW.designer.cs" Line="15">'FormSiemensFW' 包含 IDisposable 类型的字段 'FormSiemensFW.siemensFWNet': 'SiemensFetchWriteNet'。请更改 'FormSiemensFW' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="SignalCommunication">
+       <Types>
+        <Type Name="LoadingHelper" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="m_OpaqueLayer" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal" File="LoadingHelper.cs" Line="96">'LoadingHelper' 包含 IDisposable 类型的字段 'LoadingHelper.m_OpaqueLayer': 'MyOpaqueLayer'。请更改 'LoadingHelper' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TCPCommunication" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ClientTcp" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal" File="TCPCommunication.designer.cs" Line="15">'TCPCommunication' 包含 IDisposable 类型的字段 'TCPCommunication.ClientTcp': 'SocketClientManager'。请更改 'TCPCommunication' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+            <Message Id="ServerTCP" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal" File="TCPCommunication.designer.cs" Line="15">'TCPCommunication' 包含 IDisposable 类型的字段 'TCPCommunication.ServerTCP': 'AsyncTcpServer'。请更改 'TCPCommunication' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+            <Message Id="TH" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal" File="TCPCommunication.designer.cs" Line="15">'TCPCommunication' 包含 IDisposable 类型的字段 'TCPCommunication.TH': 'ThreadHelper'。请更改 'TCPCommunication' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+            <Message Id="locading" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal" File="TCPCommunication.designer.cs" Line="15">'TCPCommunication' 包含 IDisposable 类型的字段 'TCPCommunication.locading': 'LoadingHelper'。请更改 'TCPCommunication' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ThreadHelper" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ExecTime" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal" File="ThreadHelper.cs" Line="1081">'ThreadHelper' 包含 IDisposable 类型的字段 'ThreadHelper.ExecTime': 'Timer'。请更改 'ThreadHelper' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="SignalCommunication.TCP">
+       <Types>
+        <Type Name="SocketClientManager" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ExecTime" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal\Tcp" File="ClientBySocket.cs" Line="439">'SocketClientManager' 包含 IDisposable 类型的字段 'SocketClientManager.ExecTime': 'Timer'。请更改 'SocketClientManager' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+            <Message Id="socketInfo" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付\Tcpsignal\Tcp" File="ClientBySocket.cs" Line="439">'SocketClientManager' 包含 IDisposable 类型的字段 'SocketClientManager.socketInfo': 'SocketInfo'。请更改 'SocketClientManager' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="SmtTest">
+       <Types>
+        <Type Name="CRobotProtocal" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+           <Issue Name="NonBreaking" Certainty="95" Level="CriticalError">在 'CRobotProtocal' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员: 'TcpDemo'。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TcpDemo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="mre" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付\Machine" File="TcpDemo.designer.cs" Line="15">'TcpDemo' 包含 IDisposable 类型的字段 'TcpDemo.mre': 'ManualResetEvent'。请更改 'TcpDemo' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+            <Message Id="socketClient" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付\Machine" File="TcpDemo.designer.cs" Line="15">'TcpDemo' 包含 IDisposable 类型的字段 'TcpDemo.socketClient': 'Socket'。请更改 'TcpDemo' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+            <Message Id="socketClient2" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付\Machine" File="TcpDemo.designer.cs" Line="15">'TcpDemo' 包含 IDisposable 类型的字段 'TcpDemo.socketClient2': 'Socket'。请更改 'TcpDemo' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="螺丝自动锁付">
+       <Types>
+        <Type Name="AutoCheck" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="hkcatch1" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付" File="AutoCheck.designer.cs" Line="15">'AutoCheck' 包含 IDisposable 类型的字段 'AutoCheck.hkcatch1': 'Mat'。请更改 'AutoCheck' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+            <Message Id="hkcatch2" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付" File="AutoCheck.designer.cs" Line="15">'AutoCheck' 包含 IDisposable 类型的字段 'AutoCheck.hkcatch2': 'Mat'。请更改 'AutoCheck' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+            <Message Id="hkcatch3" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付" File="AutoCheck.designer.cs" Line="15">'AutoCheck' 包含 IDisposable 类型的字段 'AutoCheck.hkcatch3': 'Mat'。请更改 'AutoCheck' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+            <Message Id="hkcatch4" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付" File="AutoCheck.designer.cs" Line="15">'AutoCheck' 包含 IDisposable 类型的字段 'AutoCheck.hkcatch4': 'Mat'。请更改 'AutoCheck' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+            <Message Id="imageMarkers" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付" File="AutoCheck.designer.cs" Line="15">'AutoCheck' 包含 IDisposable 类型的字段 'AutoCheck.imageMarkers': 'Image&lt;Gray, int&gt;'。请更改 'AutoCheck' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+            <Message Id="totalmt" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付" File="AutoCheck.designer.cs" Line="15">'AutoCheck' 包含 IDisposable 类型的字段 'AutoCheck.totalmt': 'Mat'。请更改 'AutoCheck' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+            <Message Id="vdwriter" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2021-09-19 16:52:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Inventec\螺丝自动锁付\螺丝自动锁付" File="AutoCheck.designer.cs" Line="15">'AutoCheck' 包含 IDisposable 类型的字段 'AutoCheck.vdwriter': 'VideoFileWriter'。请更改 'AutoCheck' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213">
+   <Name>应释放可释放的字段</Name>
+   <Description>如果实现了 IDisposable 的类型拥有同样实现 IDisposable 的字段，则封装类型的 Dispose() 实现应对每个可释放字段调用 Dispose()。</Description>
+   <Resolution Name="Default">{0} 包含 IDisposable 类型的字段 {1}: {2}。请更改 {0} 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182328.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>具有可释放字段的类型应该是可释放的</Name>
+   <Description>声明可释放成员的类型也应实现 IDisposable。如果该类型没有任何非托管资源，请不要在其上实现终结器。</Description>
+   <Resolution Name="NonBreaking">在 {0} 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员: {1}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="16.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">类别</String>
+  <String Key="Certainty">确定性</String>
+  <String Key="CollapseAll">全部折叠</String>
+  <String Key="CheckId">检查 ID</String>
+  <String Key="Error">错误</String>
+  <String Key="Errors">错误</String>
+  <String Key="ExpandAll">全部展开</String>
+  <String Key="Help">帮助</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">消息</String>
+  <String Key="LocationNotStoredInPdb">[位置未存储在 Pdb 中]</String>
+  <String Key="Project">项目</String>
+  <String Key="Resolution">解析</String>
+  <String Key="Rule">规则</String>
+  <String Key="RuleFile">规则文件</String>
+  <String Key="RuleDescription">规则说明</String>
+  <String Key="Source">源</String>
+  <String Key="Status">状态</String>
+  <String Key="Target">目标</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">代码分析报告</String>
+ </Localized>
+</FxCopReport>
