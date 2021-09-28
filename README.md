@@ -1,6 +1,11 @@
-# yhj.pub
-自动锁付（图像定位，偏移量传给机械手，与PLC通信，完全自动螺丝锁付，并保存多机种配方和生产数据）所用硬件（工控主机，海康工业相机，西门子PLC,众为兴机械手等）	编程语言：C# opencv，nuget开源库等
-硬件后台服务（MQ,TCP,UDP等方式监听消息，根椐指令控制硬件的状态）			所用硬件（服务器）		编程语言：C# winform tcp/udp MQ,HTTP等	
+螺丝自动锁付（图像定位，偏移量传给机械手，与PLC通信，完全自动螺丝锁付，并保存多机种配方和生产数据	编程语言：C# opencv，nuget开源库等
+VideoPluginServer（MQ,TCP,UDP等方式监听消息，根椐指令控制硬件的状态	编程语言：C# winform tcp/udp MQ,HTTP等
+
+EBOOK无线功能测试 	硬件（电木制作的针板治具，工控主机，频普分析仪, 示波器,USB接口的GPIB卡等）	编程语言：Visual basic
+FF试作用ICX-0412主板功能测	所用仪器有（电木制作的针板治具，电压表，音频分析仪，示波器,PCI IO板卡，GPIB 488.2等）	编程语言：Visual basic
+反制系统接入服务	定时接收探测信号，解码16进制数据通过HTTP API接口发送到服务器数据	编程语言：C# winform tcp/udp ,HTTP等
+
+部分代码：	
 /// <summary>
         /// 解析无线电侦测上报的数据
         /// </summary>

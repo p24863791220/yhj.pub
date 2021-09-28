@@ -1,0 +1,3 @@
+行 27: 控件 MSComm1 的类 MSCommLib.MSComm 不是一个已加载的控件类。
+行 177: 控件 UpDown1 的类 MSComCtl2.UpDown 不是一个已加载的控件类。
+行 306: 控件 WAITBar 的类 MSComctlLib.ProgressBar 不是一个已加载的控件类。

@@ -1,0 +1,158 @@
+test write - start
+open channel device
+set up the communication channal
+we detect the flash model from device
+Bootstrup is running.
+initialize memory - Device Type [K4X2G323PB X 1]
+set the communication mode through write memory interace
+Download RAM Karnel>Loading RAM Kernel
+Send the complete command to the device
+wait for USB connection.
+Get RAM Kernel version: MMC
+initial flash
+set the bbt flag
+set the bi swap flag
+Writing ... 
+Info : 0x001e0000 : Info
++00000000 / 00020000 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 542.007 ms
+IPL : 0x00000000 : IPL
++00000000 / 00000800 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 12.939 ms
+SPL : 0x00000800 : SPL
++00000000 / 000bf800 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 2467.004 ms
+SDMTable : 0x000c0000 : SDMTable
++00000000 / 000a0000 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 2058.391 ms
+nblconfig : 0x00160000 : nblconfig
++00000000 / 00080000 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 1650.380 ms
+Linux0 : 0x00200000 : Linux0
++00000000 / 00400000 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6554.021 ms
++00200000 / 00400000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.252 ms
+Rootfs0 : 0x00600000 : Rootfs0
++00000000 / 00600000 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6554.162 ms
++00200000 / 00600000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6556.948 ms
++00400000 / 00600000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6570.741 ms
+EpdConfig : 0x00c00000 : EpdConfig
++00000000 / 00100000 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 3287.645 ms
+BootImg : 0x00f00000 : BootImg
++00000000 / 00100000 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 3291.947 ms
+Linux : 0x01000000 : Linux
++00000000 / 00400000 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6555.254 ms
++00200000 / 00400000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.493 ms
+Dic : 0x01420000 : Dic
++00000000 / 08d20000 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6564.756 ms
++00200000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6561.095 ms
++00400000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6570.669 ms
++00600000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.149 ms
++00800000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.960 ms
++00a00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.212 ms
++00c00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.403 ms
++00e00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.553 ms
++01000000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.608 ms
++01200000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.342 ms
++01400000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6562.515 ms
++01600000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6566.729 ms
++01800000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.099 ms
++01a00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.563 ms
++01c00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.000 ms
++01e00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.505 ms
++02000000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.414 ms
++02200000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.104 ms
++02400000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.029 ms
++02600000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.096 ms
++02800000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.228 ms
++02a00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.555 ms
++02c00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.808 ms
++02e00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.601 ms
++03000000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.086 ms
++03200000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.822 ms
++03400000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.552 ms
++03600000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6561.146 ms
++03800000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6564.125 ms
++03a00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6558.928 ms
++03c00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.323 ms
++03e00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.198 ms
++04000000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.120 ms
++04200000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.689 ms
++04400000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.886 ms
++04600000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.301 ms
++04800000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.630 ms
++04a00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.337 ms
++04c00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6558.978 ms
++04e00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.043 ms
++05000000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.071 ms
++05200000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6558.888 ms
++05400000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.377 ms
++05600000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.304 ms
++05800000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.771 ms
++05a00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.191 ms
++05c00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.016 ms
++05e00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.809 ms
++06000000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6561.343 ms
++06200000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.029 ms
++06400000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.515 ms
++06600000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.067 ms
++06800000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.021 ms
++06a00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.384 ms
++06c00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.041 ms
++06e00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.283 ms
++07000000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.489 ms
++07200000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.264 ms
++07400000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.516 ms
++07600000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6564.652 ms
++07800000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.257 ms
++07a00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.064 ms
++07c00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.521 ms
++07e00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.452 ms
++08000000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.517 ms
++08200000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.081 ms
++08400000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.229 ms
++08600000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6561.622 ms
++08800000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.144 ms
++08a00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6565.892 ms
++08c00000 / 08d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 3698.043 ms
+Launcher : 0x0dc20000 : Launcher
++00000000 / 00660000 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6563.175 ms
++00200000 / 00660000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.792 ms
++00400000 / 00660000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.140 ms
++00600000 / 00660000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 1239.437 ms
+Opt0 : 0x0e620000 : Opt0
++00000000 / 00020000 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 425.833 ms
+Preload : 0x0ee20000 : Preload
++00000000 / 010a0000 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6563.512 ms
++00200000 / 010a0000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6558.929 ms
++00400000 / 010a0000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.250 ms
++00600000 / 010a0000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.274 ms
++00800000 / 010a0000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.807 ms
++00a00000 / 010a0000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.061 ms
++00c00000 / 010a0000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.426 ms
++00e00000 / 010a0000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6566.340 ms
++01000000 / 010a0000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 2061.174 ms
+Rootfs : 0x12e20000 : Rootfs
++00000000 / 02000000 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6563.182 ms
++00200000 / 02000000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6558.927 ms
++00400000 / 02000000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.970 ms
++00600000 / 02000000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6558.914 ms
++00800000 / 02000000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.419 ms
++00a00000 / 02000000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.832 ms
++00c00000 / 02000000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.711 ms
++00e00000 / 02000000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6566.252 ms
++01000000 / 02000000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6575.331 ms
++01200000 / 02000000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6576.070 ms
++01400000 / 02000000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6575.889 ms
++01600000 / 02000000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6579.056 ms
++01800000 / 02000000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6575.726 ms
++01a00000 / 02000000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6575.826 ms
++01c00000 / 02000000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6575.555 ms
++01e00000 / 02000000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6575.615 ms
+Data : 0x14e20000 : Data
++00000000 / 00d20000 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.189 ms
++00200000 / 00d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.200 ms
++00400000 / 00d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6559.225 ms
++00600000 / 00d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6563.629 ms
++00800000 / 00d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6562.435 ms
++00a00000 / 00d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 6560.108 ms
++00c00000 / 00d20000 >Flash Programming>Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 3698.510 ms
+NAND_Version : 0x001e2000 : Version
++00000000 / 00001000 >Downloading image>Flash Programming>Data Verifing>Checksum Verifing : 22.380 ms
+success
+test write - stop
+time = 750.404 s
