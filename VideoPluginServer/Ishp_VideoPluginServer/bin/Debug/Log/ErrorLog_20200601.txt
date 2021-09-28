@@ -1,0 +1,39 @@
+[2020-06-01 00:11:36][Error] 录像播放发生错误:System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   在 Ishp_VideoPluginServer.View.DhVideoForm.dhspbf(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\View\DhVideoForm.cs:行号 149 
+[2020-06-01 00:12:20][Error] 录像播放发生错误:System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   在 Ishp_VideoPluginServer.View.DhVideoForm.dhspbf(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\View\DhVideoForm.cs:行号 149 
+[2020-06-01 00:28:07][Error] 录像播放发生错误:System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   在 Ishp_VideoPluginServer.View.DhVideoForm.dhspbf(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\View\DhVideoForm.cs:行号 126 
+[2020-06-01 00:28:21][Error] 录像播放发生错误:System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   在 Ishp_VideoPluginServer.View.DhVideoForm.dhspbf(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\View\DhVideoForm.cs:行号 126 
+[2020-06-01 00:41:02][Error] 录像播放发生错误:System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   在 System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   在 Ishp_VideoPluginServer.View.DhVideoForm.dhspbf(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\View\DhVideoForm.cs:行号 126 
+[2020-06-01 10:41:55][Error] Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: s. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json)
+   在 Ishp_PluginServer.Common.BLL.hwServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 83
+   在 Ishp_PluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 51
+   在 Ishp_PluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 
+[2020-06-01 14:50:30][Error] 录像播放发生错误:System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   在 System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   在 Ishp_PluginServer.View.HwVideoForm.hwspbf(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\View\HwVideoForm.cs:行号 72 
+[2020-06-01 14:51:39][Error] 录像播放发生错误:System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   在 System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   在 Ishp_PluginServer.View.HwVideoForm.hwspbf(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\View\HwVideoForm.cs:行号 72 
+[2020-06-01 14:54:20][Error] 录像播放发生错误:System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   在 System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   在 Ishp_PluginServer.View.HwVideoForm.hwspbf(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\View\HwVideoForm.cs:行号 72 
+[2020-06-01 21:05:54][Error] Failed to start! 
+[2020-06-01 21:09:49][Error] Failed to start! 

@@ -1,0 +1,8 @@
+[2020-12-02 22:36:43.3979][Info] Setup Success... 
+[2020-12-02 22:36:43.5448][Info] Start Success... 
+[2020-12-02 22:36:43.5448][Info] Server Listen at 4649 
+[2020-12-02 22:36:43.8317][Info] New Session Connected:1f6396e1-0314-49a8-baf5-d580c014afef, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:55883 
+[2020-12-02 22:39:39.0646][Info] Receive:IsHere** ClientIP:127.0.0.1:55883 
+[2020-12-02 22:44:39.0493][Info] Receive:IsHere** ClientIP:127.0.0.1:55883 
+[2020-12-02 22:49:39.0505][Info] Receive:IsHere** ClientIP:127.0.0.1:55883 
+[2020-12-02 22:54:39.0512][Info] Receive:IsHere** ClientIP:127.0.0.1:55883 

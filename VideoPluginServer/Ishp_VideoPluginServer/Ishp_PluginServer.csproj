@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A9EFE83-D589-4C43-BC86-1AE681D39EB1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Ishp_VideoPluginServer</RootNamespace>
+    <AssemblyName>Ishp_VideoPluginServer</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Controls, Version=2.2.5.0, Culture=neutral, PublicKeyToken=a8ac264d1dc6b9d9, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Controls.2.2.5\lib\AForge.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging, Version=2.2.5.0, Culture=neutral, PublicKeyToken=ba8ddea9676ca48b, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Imaging.2.2.5\lib\AForge.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Math, Version=2.2.5.0, Culture=neutral, PublicKeyToken=abba2e25397ee8c9, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Math.2.2.5\lib\AForge.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.FSPLAYEROCXLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AxInterop.FSPLAYEROCXLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.FSPLAYEROCXLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.FSPLAYEROCXLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio, Version=1.7.2.19, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.7.2\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp, Version=2.0.4666.42387, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.Blob, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.Blob.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.CPlusPlus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.CPlusPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.DebuggerVisualizers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.DebuggerVisualizers.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.Gpu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.Gpu.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.MachineLearning, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.MachineLearning.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.UserInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.UserInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="SuperSocket.Common, Version=1.6.0.4, Culture=neutral, PublicKeyToken=6c80000676988ebb, processorArchitecture=MSIL">
+      <HintPath>..\packages\SuperWebSocket.0.9.0.2\lib\net40\SuperSocket.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketBase, Version=1.6.0.4, Culture=neutral, PublicKeyToken=6c80000676988ebb, processorArchitecture=MSIL">
+      <HintPath>..\packages\SuperWebSocket.0.9.0.2\lib\net40\SuperSocket.SocketBase.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketEngine, Version=1.6.0.4, Culture=neutral, PublicKeyToken=6c80000676988ebb, processorArchitecture=MSIL">
+      <HintPath>..\packages\SuperWebSocket.0.9.0.2\lib\net40\SuperSocket.SocketEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperWebSocket, Version=0.9.0.0, Culture=neutral, PublicKeyToken=7ba53b9a7cef5d1c, processorArchitecture=MSIL">
+      <HintPath>..\packages\SuperWebSocket.0.9.0.2\lib\net40\SuperWebSocket.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="YamlDotNet, Version=8.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e, processorArchitecture=MSIL">
+      <HintPath>..\packages\YamlDotNet.8.1.2\lib\net45\YamlDotNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\AppConfig.cs" />
+    <Compile Include="Common\BLL.cs" />
+    <Compile Include="Common\DPSDK_Core.cs" />
+    <Compile Include="Common\FaceApi\FaceCompare.cs" />
+    <Compile Include="Common\FaceApi\FaceInit.cs" />
+    <Compile Include="Common\FaceApi\FaceManager.cs" />
+    <Compile Include="Common\FaceApi\FaceSetting.cs" />
+    <Compile Include="Common\FaceApi\FaceTrack.cs" />
+    <Compile Include="Common\FaceApi\YSUtils\config\ConfigClass.cs" />
+    <Compile Include="Common\FaceApi\YSUtils\config\ConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\config\ConfigForm.Designer.cs">
+      <DependentUpon>ConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\config\ConfigPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\config\ConfigPanel.Designer.cs">
+      <DependentUpon>ConfigPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\config\FormDCChannelConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\config\FormDCChannelConfig.Designer.cs">
+      <DependentUpon>FormDCChannelConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\config\FormDCConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\config\FormDCConfig.Designer.cs">
+      <DependentUpon>FormDCConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\config\FormECChannelConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\config\FormECChannelConfig.Designer.cs">
+      <DependentUpon>FormECChannelConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\config\FormECConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\config\FormECConfig.Designer.cs">
+      <DependentUpon>FormECConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\config\LocalConfig.cs" />
+    <Compile Include="Common\FaceApi\YSUtils\player\DCPlayer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\player\DCPlayer.Designer.cs">
+      <DependentUpon>DCPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\player\Player.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\player\Player.Designer.cs">
+      <DependentUpon>Player.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\player\PlayerPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\player\PlayerPanel.Designer.cs">
+      <DependentUpon>PlayerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\ptz\PTZPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\ptz\PTZPanel.designer.cs">
+      <DependentUpon>PTZPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\SdkManager.cs" />
+    <Compile Include="Common\FaceApi\YSUtils\sdk\AVCallBack.cs" />
+    <Compile Include="Common\FaceApi\YSUtils\sdk\CommonFunc.cs" />
+    <Compile Include="Common\FaceApi\YSUtils\sdk\Configurator.cs" />
+    <Compile Include="Common\FaceApi\YSUtils\sdk\Download.cs" />
+    <Compile Include="Common\FaceApi\YSUtils\sdk\FrameLive.cs" />
+    <Compile Include="Common\FaceApi\YSUtils\sdk\IMOSSDK.cs" />
+    <Compile Include="Common\FaceApi\YSUtils\sdk\PTZControl.cs" />
+    <Compile Include="Common\FaceApi\YSUtils\sdk\QueryResource.cs" />
+    <Compile Include="Common\FaceApi\YSUtils\sdk\Vod.cs" />
+    <Compile Include="Common\FaceApi\YSUtils\SubCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\SubCtrl.designer.cs">
+      <DependentUpon>SubCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\vod\VODPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\FaceApi\YSUtils\vod\VODPanel.Designer.cs">
+      <DependentUpon>VODPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ImageUtils.cs" />
+    <Compile Include="Common\LockDX.cs" />
+    <Compile Include="Common\Log.cs" />
+    <Compile Include="Common\PlugServer.cs" />
+    <Compile Include="Common\WSocketServer.cs" />
+    <Compile Include="Common\YamlConfig.cs" />
+    <Compile Include="PlugService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PlugService.Designer.cs">
+      <DependentUpon>PlugService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources.Designer.cs" />
+    <Compile Include="View\DhVideoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DhVideoForm.Designer.cs">
+      <DependentUpon>DhVideoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FaceRecognitionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FaceRecognitionForm.Designer.cs">
+      <DependentUpon>FaceRecognitionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\HkVideoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HkVideoForm.Designer.cs">
+      <DependentUpon>HkVideoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\HwVideoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HwVideoForm.Designer.cs">
+      <DependentUpon>HwVideoForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Common\FaceApi\YSUtils\config\app.config" />
+    <None Include="Config\appPassageway.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="libOpenCvSharpExtern.so" />
+    <None Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="NLog.xsd">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="OpenCvSharp.Blob.dll.config" />
+    <None Include="OpenCvSharp.CPlusPlus.dll.config" />
+    <None Include="OpenCvSharp.dll.config" />
+    <None Include="OpenCvSharp.MachineLearning.dll.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Common\FaceApi\YSUtils\config\ConfigForm.resx">
+      <DependentUpon>ConfigForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FaceApi\YSUtils\config\ConfigPanel.resx">
+      <DependentUpon>ConfigPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FaceApi\YSUtils\config\FormDCChannelConfig.resx">
+      <DependentUpon>FormDCChannelConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FaceApi\YSUtils\config\FormDCConfig.resx">
+      <DependentUpon>FormDCConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FaceApi\YSUtils\config\FormECChannelConfig.resx">
+      <DependentUpon>FormECChannelConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FaceApi\YSUtils\config\FormECConfig.resx">
+      <DependentUpon>FormECConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FaceApi\YSUtils\player\DCPlayer.resx">
+      <DependentUpon>DCPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FaceApi\YSUtils\player\Player.resx">
+      <DependentUpon>Player.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FaceApi\YSUtils\player\PlayerPanel.resx">
+      <DependentUpon>PlayerPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FaceApi\YSUtils\ptz\PTZPanel.en-US.resx">
+      <DependentUpon>PTZPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FaceApi\YSUtils\ptz\PTZPanel.resx">
+      <DependentUpon>PTZPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FaceApi\YSUtils\SubCtrl.resx">
+      <DependentUpon>SubCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FaceApi\YSUtils\vod\VODPanel.resx">
+      <DependentUpon>VODPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DhVideoForm.resx">
+      <DependentUpon>DhVideoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FaceRecognitionForm.resx">
+      <DependentUpon>FaceRecognitionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HkVideoForm.resx">
+      <DependentUpon>HkVideoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HwVideoForm.resx">
+      <DependentUpon>HwVideoForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Common\FaceApi\YSUtils\resources\16×16\Camera.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\16×16\Camera_Offline.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\16×16\close.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\16×16\ContinuePlay.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\16×16\max.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\16×16\PausePlay.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\16×16\SnatchOnce.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\16×16\step.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\16×16\StopPlay.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\16×16\StorageStart.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\16×16\StorageStop.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\22×22\applications-multimedia.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\22×22\bookmark-new.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\22×22\DomeCamera.png" />
+    <Content Include="Common\FaceApi\YSUtils\resources\22×22\DomeCamera_Offline.png" />
+    <Content Include="Common\FaceApi\YSUtils\resources\22×22\DomeCamera_Stop.png" />
+    <Content Include="Common\FaceApi\YSUtils\resources\22×22\Hotspot.png" />
+    <Content Include="Common\FaceApi\YSUtils\resources\22×22\infrared_close2.png" />
+    <Content Include="Common\FaceApi\YSUtils\resources\22×22\preferences-system.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\22×22\process-stop.png" />
+    <Content Include="Common\FaceApi\YSUtils\resources\22×22\system-log-out.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\22×22\video-display.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\IMOS.ico" />
+    <Content Include="Common\FaceApi\YSUtils\resources\IMOS_64x64.png" />
+    <Content Include="Common\FaceApi\YSUtils\resources\loading_gear.jpg" />
+    <Content Include="Common\FaceApi\YSUtils\resources\monitor.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\nomonitor.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\quickPlay.JPG" />
+    <Content Include="Common\FaceApi\YSUtils\resources\slowPlay.JPG" />
+    <Content Include="Common\FaceApi\YSUtils\resources\starttalk.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\stoptalk.bmp" />
+    <Content Include="Common\FaceApi\YSUtils\resources\VC_IMOS_64x64.png" />
+    <Content Include="OpenCvSharpExtern.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

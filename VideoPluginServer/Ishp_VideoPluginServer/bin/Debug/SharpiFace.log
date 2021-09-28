@@ -1,0 +1,59 @@
+
+=========================in HOOK_get_local_deviceid
+/n---------------------------------------------------------/n
+E2FE68BE37B3FC4A006AED620B874310
+in SharpiFaceEx::sdk_init
+resource path is:C:\Users\Administrator\Desktop\FaceCard\FaceCard\bin\rc/face-model
+resource path is:C:\Users\Administrator\Desktop\FaceCard\FaceCard\bin\rc/face-model
+deme.exe basedir:xxxx sign:xxxx devices:xxxx facesize:xxxx
+conf  sdkcount : 1
+conf  facecount : 1
+conf  attr : 1
+conf  is-quality : 1
+license file path is:C:\Users\Administrator\Desktop\FaceCard\FaceCard\bin\Release\../rc/k.dat
+is-live: 0
+is-quality: 1
+thr-not-face: 0.5
+min-face-size: 100
+thr-illum: 40
+thr-blur: 0.7
+thr-occlu: 0.5
+thr-pitch: 15
+thr-yaw: 15
+thr-roll: 15
+facecount: 1
+detect-intv: 1
+tracking-intv: 1000
+is-crop: 0
+not-use-track: 0
+crop-size: 256
+enlarge-ratio: 3
+score model init ... ..\rc/face-model//assets/score.binary
+dection model init..
+detect modle path: ..\rc/face-model//assets/facedetect.binary
+align model init ... ..\rc/face-model//assets/align.binary_64
+blur model init ... ..\rc/face-model//assets/blur.binary
+recognize live model init ...
+recognize live model init ... done
+score model init ... ..\rc/face-model//assets/score.binary
+dection model init..init detect modle: ..\rc/face-model//assets/facedetect.binary
+align model init ... ..\rc/face-model//assets/align.binary_64
+blur model init ... ..\rc/face-model//assets/blur.binary
+recognize live model init ...
+recognize live model init ... done
+attribute model init ...
+attribute model init ... done
+recognize live model init ...
+recognize live model init ... done
+liveness NIR model init ...
+liveness NIR model init ... done
+liveness VIS model init ...
+liveness VIS model init ... done
+liveness DEEP model init ...
+liveness DEEP model init ... done
+write log fail 2222
+write log fail
+in sdk init create_db
+write log fail 2222
+write log fail
+-----init m_sdk_services------2

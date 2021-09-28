@@ -1,0 +1,133 @@
+# 应用名称
+AppName: '对讲人脸识别系统'
+# 公司名称 版权信息
+CompanyName: 'Copyright © 2019 重庆新速科技有限公司 研发'
+# 授权码
+AuthCode: 'aaa'
+# 授权使用单位编码
+UnitID: '500106111'
+
+# 抓拍人脸 - 最大显示数
+MaxCaptureFace: 18
+# 比对结果显示时长（秒）
+FCShowTime: 30
+# 抓拍队列最大长度
+MaxQueueLen_CF: 10
+# 识别队列最大长度
+MaxQueueLen_FC: 10
+# 人脸识别 SDK 调用延时（毫秒） 默认:100
+FC_SDK_Delay: 100
+# 人脸抓拍 间隔帧数 默认:5
+FT_FrameInterval: 5
+# 人脸识别 间隔帧数（注意：不能为人脸抓拍间隔的倍数） 默认:12 （设为12识别速度较快，也可设为24 ）
+FC_FrameInterval: 12
+
+# 通道配置
+PassageWays:
+  - 
+    # 窗体配置 1
+    window:
+      # 进出方向 0: 入口 1:出口
+      falg: 0
+      title: '入口 方向'
+      left: 0
+      top: 0
+      width: 960
+      height: 1080
+      showAppLogo: true
+      showAppName: true
+      showCompanyName: false
+    # 摄像头配置
+    cap:
+      left: 427
+      top: 80
+      width: 533
+      height: 300
+      # 摄像头来源: 0:USB摄像头 1:RTSP流
+      type: 0
+      # usb设备序号
+      usbidx: 0
+      # rtsp源url
+      url: rtsp://admin:newspeed123@192.168.1.237:554/live
+  - 
+    # 窗体配置 2
+    window:
+      # 进出方向 0: 入口 1:出口
+      falg: 1
+      title: '出口 方向'
+      left: 960
+      top: 0
+      width: 960
+      height: 1080
+      showAppLogo: false
+      showAppName: false
+      showCompanyName: true
+    # 摄像头配置
+    cap:
+      left: 1387
+      top: 80
+      width: 533
+      height: 300
+      # 摄像头来源: 0:USB摄像头 1:RTSP流
+      type: 1
+      # usb设备序号
+      usbidx: 1
+      # rtsp源url rtsp://admin:newspeed123@192.168.1.237:554/live  rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov
+      url: rtsp://admin:newspeed123@192.168.1.237:554/live
+
+# 数据库配置
+DB:
+  Host: 127.0.0.1
+  Port: 5432
+  Database: xspdfr
+  UserName: xspdfr
+  UserPwd: xspdfr
+
+# MQ配置
+MQ:
+  # 消息过期时长（秒）
+  MsgTimeout: 3600
+  
+  Host: 192.168.1.209
+  Port: 5672
+  VHost: vh.xspdfr
+  UserName: admin
+  UserPwd: newspeed
+
+  Exchange: ex.public
+  Queue: q.passageway
+  BindKey: xspdfr.server.face.#.sdk.finish
+  
+
+# 人脸识别配置
+FaceSetting:
+  # 识别评分阀值 大于此分值的结果才会显示并记录
+  match_score_thr: 60
+  # 最大检测人脸数量 最大10
+  max_face_len: 10
+  # 是否执行质量检测，默认为false
+  check_quality: false
+  # 设置光照阈值，取值范围0~255，默认40，越大代表脸部越亮
+  illum_thr: 40
+  # 模糊阈值，取值范围0~1，默认0.7，越小代表图像越清晰
+  #   当设置为0时，模糊检测不进行且结果不通过；当设置为1时，模糊检测不进行且结果通过
+  blur_thr: 0.7
+  # 遮挡阈值，右眼、左眼、鼻子、嘴巴、左脸颊、右脸颊、下巴的遮挡阈值，取值范围0~1，默认0.5，值越小代表遮挡程序越小
+  #   当设置为1时，遮挡检测不进行且结果不通过；当设置为0时，遮挡检测不进行且结果通过
+  occlu_thr: 0.5
+  # 角度阀值，欧拉角pitch、yaw、roll等角度的阈值，默认都为15，越大代表可采集的人脸角度越大，但是角度越大识别效果会越差
+  #   俯仰角 pitch
+  eulur_angle_pitch_thr: 15
+  #   偏航角 yaw
+  eulur_angle_yaw_thr: 15
+  #   翻滚角 roll
+  eulur_angle_roll_thr: 15
+  # 非人脸的置信度阈值，取值范围0~1，取0则认为所有检测出来的结果都是人脸，默认0.5
+  not_face_thr: 0.5
+  # 最小人脸尺寸：需要检测到的最小人脸尺寸，比如需要检测到30*30的人脸则设置为30
+  # 该尺寸占图像比例越小则检测速度越慢，具体请参考性能指标章节。默认值100
+  min_face_size: 50
+  # 跟踪到目标后执行检测的时间间隔，单位毫秒，默认300，值越小越会更快发现新目标，
+  track_by_detection_interval: 300
+  # 未跟踪到目标时的检测间隔，单位毫秒，默认300，值越小越快发现新目标，但是cpu占用率会提高、处理速度变慢
+  detect_in_video_interval: 300

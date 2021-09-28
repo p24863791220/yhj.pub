@@ -1,0 +1,14 @@
+[1219 15:26:32.445][PDLLDpsdk_fun.cpp:597] TID 44992 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[15] m_sequence[1]
+[1219 15:26:32.457][PDLLDpsdk_fun.cpp:597] TID 44992 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[15] m_sequence[2]
+[1219 15:26:32.457][DPSDK_Core.cpp:389] TID 98536 [INFO] DPSDK_Login(): [DPSDK]IP=77.49.196.205 port=9000 name=system password=fsw651001 iType=1
+[1219 15:26:32.459][DPSDK_Core.cpp:401] TID 188664 [INFO] DPSDK_Login(): nPDLLHandle = 2, IP = 77.49.196.205, Port = 9000, name = system, password = fsw651001,nProtocol = 2, iType = 1, szCheckBit = ü#^$$^@$^(#
+[1219 15:26:32.460][DPSDK_Core.cpp:401] TID 98536 [INFO] DPSDK_Login(): nPDLLHandle = 2, IP = 77.49.196.205, Port = 9000, name = system, password = fsw651001,nProtocol = 2, iType = 1, szCheckBit = ü#^$$^@$^(#
+[1219 15:26:32.461][CMSClientMdl_for_general.cpp:199] TID 32344 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin()
+[1219 15:26:32.461][ServerSession.cpp:87] TID 32344 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 0, ip = 77.49.196.205, port = 9000
+[1219 15:26:32.461][CMSClientMdl_for_general.cpp:257] TID 32344 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin() SEND_AND_STORE_MSG
+[1219 15:26:32.461][CMSClientMdl_for_general.cpp:199] TID 32344 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin()
+[1219 15:26:32.461][CMSClientMdl_for_general.cpp:257] TID 32344 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin() SEND_AND_STORE_MSG
+[1219 15:26:37.470][ServerSession.cpp:370] TID 165384 [INFO] DPSdk::DSDKSocketHandler::OnClose(): DSDKSocketHandler::OnClose() sid = 0, error = 0
+[1219 15:26:37.482][CMSClientMdl.cpp:186] TID 165384 [INFO] DPSdk::CMSClientMdl::DealWithNetClose(): [PSDK] CMSClientMdl::DealWithNetClose() sid = 0, error = 0, m_sid = 0, blogin = false
+[1219 15:26:37.482][PDLLDpsdk_fun.cpp:597] TID 44992 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[4] m_sequence[4]
+[1219 15:26:37.483][PDLLMessageQueue.cpp:524] TID 111104 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[4] pInfo->m_nSeq[4]

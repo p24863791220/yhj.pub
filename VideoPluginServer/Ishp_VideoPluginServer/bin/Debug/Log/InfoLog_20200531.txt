@@ -1,0 +1,122 @@
+[2020-05-31 20:09:24.9928][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 20:17:25.4029][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 20:18:20.2029][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 20:19:00.7333][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 20:23:35.9907][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 20:27:53.4490][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 20:52:34.9208][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 21:11:40.5473][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 21:21:25.8728][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 21:40:35.4115][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 21:42:05.7967][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 21:43:25.8203][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 21:46:19.4832][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 21:47:11.3162][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 21:49:28.5710][Info] Setup Success... 
+[2020-05-31 21:49:28.6890][Info] Start Success... 
+[2020-05-31 21:49:28.6890][Info] Server Listen at 4649 
+[2020-05-31 21:50:25.9953][Info] New Session Connected:a2e72cce-a602-45b1-8a83-546427ebaf61, Path:/lcj%E7%BD%91%E9%A1%B5, Host:192.168.1.217:4649, IP:192.168.1.217:52889 
+[2020-05-31 21:50:36.3399][Info] Receive:sdad ClientIP:192.168.1.217:52889 
+[2020-05-31 21:51:15.6772][Info] Setup Success... 
+[2020-05-31 21:51:15.8362][Info] Start Success... 
+[2020-05-31 21:51:15.8362][Info] Server Listen at 4649 
+[2020-05-31 21:51:16.1262][Info] New Session Connected:ffe63f92-8af5-4f2a-8596-731cf618e04c, Path:/lcj%E7%BD%91%E9%A1%B5, Host:192.168.1.217:4649, IP:192.168.1.217:52949 
+[2020-05-31 21:51:24.6007][Info] Receive:dsas ClientIP:192.168.1.217:52949 
+[2020-05-31 22:19:12.2211][Info] Setup Success... 
+[2020-05-31 22:19:12.3561][Info] Start Success... 
+[2020-05-31 22:19:12.3561][Info] Server Listen at 4649 
+[2020-05-31 22:20:33.6907][Info] Setup Success... 
+[2020-05-31 22:20:33.8397][Info] Start Success... 
+[2020-05-31 22:20:33.8397][Info] Server Listen at 4649 
+[2020-05-31 22:21:40.2795][Info] Setup Success... 
+[2020-05-31 22:21:40.4155][Info] Start Success... 
+[2020-05-31 22:21:40.4155][Info] Server Listen at 4649 
+[2020-05-31 22:21:43.9037][Info] New Session Connected:3cd210e2-d743-41df-af9d-f7dd37c83aca, Path:/lcj%E7%BD%91%E9%A1%B5, Host:192.168.1.217:4649, IP:192.168.1.217:55092 
+[2020-05-31 22:21:53.1613][Info] Receive:1515 ClientIP:192.168.1.217:55092 
+[2020-05-31 22:22:22.4879][Info] Receive:1515 ClientIP:192.168.1.217:55092 
+[2020-05-31 22:22:49.7085][Info] Setup Success... 
+[2020-05-31 22:22:49.8485][Info] Start Success... 
+[2020-05-31 22:22:49.8495][Info] Server Listen at 4649 
+[2020-05-31 22:22:55.3578][Info] New Session Connected:336add62-2d83-4dc4-adef-03b58c3f5c47, Path:/lcj%E7%BD%91%E9%A1%B5, Host:192.168.1.217:4649, IP:192.168.1.217:55118 
+[2020-05-31 22:23:03.8233][Info] Receive:151 ClientIP:192.168.1.217:55118 
+[2020-05-31 22:23:29.7758][Info] Receive:525 ClientIP:192.168.1.217:55118 
+[2020-05-31 22:24:52.7305][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:55118 
+[2020-05-31 22:25:16.1719][Info] Setup Success... 
+[2020-05-31 22:25:16.3319][Info] Start Success... 
+[2020-05-31 22:25:16.3319][Info] Server Listen at 4649 
+[2020-05-31 22:25:16.6629][Info] New Session Connected:cba4453e-e810-437c-81e0-5df921c86a77, Path:/lcj%E7%BD%91%E9%A1%B5, Host:192.168.1.217:4649, IP:192.168.1.217:55187 
+[2020-05-31 22:25:20.5351][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:55187 
+[2020-05-31 22:25:26.2184][Info] Receive:IsHere** ClientIP:192.168.1.217:55187 
+[2020-05-31 22:29:03.5359][Info] Setup Success... 
+[2020-05-31 22:29:03.6789][Info] Start Success... 
+[2020-05-31 22:29:03.6789][Info] Server Listen at 4649 
+[2020-05-31 22:29:10.7803][Info] New Session Connected:9edddce7-67d6-4ceb-9393-a0eee75482ae, Path:/lcj%E7%BD%91%E9%A1%B5, Host:192.168.1.217:4649, IP:192.168.1.217:55432 
+[2020-05-31 22:29:15.1675][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:55432 
+[2020-05-31 22:29:31.1775][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 22:30:07.8486][Info] Setup Success... 
+[2020-05-31 22:30:07.9866][Info] Start Success... 
+[2020-05-31 22:30:07.9866][Info] Server Listen at 4649 
+[2020-05-31 22:30:09.7707][Info] New Session Connected:13891edf-eca6-408c-be66-0b0c6449d362, Path:/lcj%E7%BD%91%E9%A1%B5, Host:192.168.1.217:4649, IP:192.168.1.217:55585 
+[2020-05-31 22:30:15.0510][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:55585 
+[2020-05-31 22:30:22.5504][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 22:30:25.9626][Info] Receive:IsHere** ClientIP:192.168.1.217:55585 
+[2020-05-31 22:37:23.6425][Info] Setup Success... 
+[2020-05-31 22:37:23.7665][Info] Start Success... 
+[2020-05-31 22:37:23.7675][Info] Server Listen at 4649 
+[2020-05-31 22:40:56.6907][Info] Setup Success... 
+[2020-05-31 22:40:56.8387][Info] Start Success... 
+[2020-05-31 22:40:56.8387][Info] Server Listen at 4649 
+[2020-05-31 22:40:57.3477][Info] New Session Connected:262a5ae6-46bd-42f8-94b8-85fa1b942319, Path:/lcj%E7%BD%91%E9%A1%B5, Host:192.168.1.217:4649, IP:192.168.1.217:55967 
+[2020-05-31 22:41:03.1830][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:55967 
+[2020-05-31 22:41:23.7942][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 22:41:45.6165][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:55967 
+[2020-05-31 22:42:45.7259][Info] Setup Success... 
+[2020-05-31 22:42:45.8659][Info] Start Success... 
+[2020-05-31 22:42:45.8659][Info] Server Listen at 4649 
+[2020-05-31 22:42:46.8730][Info] New Session Connected:81245e4f-7ef9-4088-a32e-3cd2f91cedf1, Path:/lcj%E7%BD%91%E9%A1%B5, Host:192.168.1.217:4649, IP:192.168.1.217:56054 
+[2020-05-31 22:42:50.0501][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:56054 
+[2020-05-31 22:42:55.1854][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 22:43:04.5920][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:56054 
+[2020-05-31 22:46:11.1156][Info] Setup Success... 
+[2020-05-31 22:46:11.2747][Info] Start Success... 
+[2020-05-31 22:46:11.2747][Info] Server Listen at 4649 
+[2020-05-31 22:46:11.9277][Info] New Session Connected:c0e27238-db86-465a-a5fa-3071e90185cd, Path:/lcj%E7%BD%91%E9%A1%B5, Host:192.168.1.217:4649, IP:192.168.1.217:56390 
+[2020-05-31 22:46:19.1961][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:56390 
+[2020-05-31 22:46:23.1063][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 22:46:39.9033][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:56390 
+[2020-05-31 22:46:51.9150][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 22:46:54.1421][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:56390 
+[2020-05-31 22:47:03.8537][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 22:47:05.1447][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:56390 
+[2020-05-31 22:47:14.7613][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 22:51:52.1041][Info] Setup Success... 
+[2020-05-31 22:51:52.2282][Info] Start Success... 
+[2020-05-31 22:51:52.2282][Info] Server Listen at 4649 
+[2020-05-31 22:51:52.5362][Info] New Session Connected:dba79fc8-3ec7-44a7-9145-5a2d1cd59742, Path:/lcj%E7%BD%91%E9%A1%B5, Host:192.168.1.217:4649, IP:192.168.1.217:56921 
+[2020-05-31 22:52:02.9038][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:56921 
+[2020-05-31 22:52:15.6575][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 22:52:17.4956][Info] 华为OCX控件调用发生错误:-1 
+[2020-05-31 22:52:33.2085][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:56921 
+[2020-05-31 22:52:38.2188][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 22:52:44.4441][Info] 华为OCX控件调用发生错误:-1 
+[2020-05-31 22:52:53.6357][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:56921 
+[2020-05-31 22:52:59.0650][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 22:53:07.0514][Info] 华为OCX控件调用发生错误:-1 
+[2020-05-31 22:54:13.9313][Info] Setup Success... 
+[2020-05-31 22:54:14.0733][Info] Start Success... 
+[2020-05-31 22:54:14.0733][Info] Server Listen at 4649 
+[2020-05-31 22:54:17.1504][Info] New Session Connected:ae77df1c-8d84-4a1a-bd48-3ded97ce325f, Path:/lcj%E7%BD%91%E9%A1%B5, Host:192.168.1.217:4649, IP:192.168.1.217:57161 
+[2020-05-31 22:54:19.3856][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:57161 
+[2020-05-31 22:54:26.4300][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 22:54:30.1122][Info] 华为OCX控件调用发生错误:-1 
+[2020-05-31 22:54:37.4396][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:57161 
+[2020-05-31 22:54:40.9428][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 22:54:40.9428][Info] 华为OCX控件调用发生错误:-1 
+[2020-05-31 22:55:03.1531][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:57161 
+[2020-05-31 22:55:06.6663][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 22:55:06.6663][Info] 华为OCX控件调用发生错误:-1 
+[2020-05-31 22:55:25.9774][Info] Receive:IsHere** ClientIP:192.168.1.217:57161 
+[2020-05-31 22:59:51.6696][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "video.huawei.replay",   "param": {     "cameraid": "05215122757659790101#81c27ea7bf1246919d31322d1255c2c5",     "channel": 0,     "starttime": "2020-05-29 00:00:00",     "endtime": "2020-05-29 23:59:59"   } } ClientIP:192.168.1.217:57161 
+[2020-05-31 22:59:55.1808][Info] 华为平台初始化登录信息：109100019 
+[2020-05-31 22:59:55.1808][Info] 华为OCX控件调用发生错误:-1 
+[2020-05-31 23:00:06.7914][Info] Session Close:ClientClosing, Path:/lcj%E7%BD%91%E9%A1%B5, IP:192.168.1.217:57161 

@@ -1,0 +1,1 @@
+installutil Ishp_VideoPluginServer.exe

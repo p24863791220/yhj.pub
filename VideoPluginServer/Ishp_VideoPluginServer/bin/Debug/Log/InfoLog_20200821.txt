@@ -1,0 +1,55 @@
+[2020-08-21 19:32:53.1461][Info] Setup Success... 
+[2020-08-21 19:32:53.8327][Info] Start Success... 
+[2020-08-21 19:32:53.8327][Info] Server Listen at 4649 
+[2020-08-21 19:32:58.6597][Info] New Session Connected:b94c4ff9-c88f-4bd3-882e-27374a580673, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:62038 
+[2020-08-21 19:33:04.4861][Info] authed res is:True 
+[2020-08-21 19:35:05.9328][Info] Setup Success... 
+[2020-08-21 19:35:06.1387][Info] Start Success... 
+[2020-08-21 19:35:06.1407][Info] Server Listen at 4649 
+[2020-08-21 19:35:06.3865][Info] New Session Connected:489d712d-2995-47a5-8647-23b5bfd334c8, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:62118 
+[2020-08-21 19:35:06.3995][Info] New Session Connected:55604864-eccb-486a-99cc-94732a0f5d9b, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:62119 
+[2020-08-21 19:35:10.9857][Info] authed res is:True 
+[2020-08-21 19:35:12.5108][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "faceRecognition",   "param": {   } } ClientIP:127.0.0.1:62118 
+[2020-08-21 19:35:33.1036][Info] {
+	"data" : 
+	{
+		"face_token" : "784b334f5c4ea572b21c3f3edbff5857",
+		"log_id" : "1598009733",
+		"result" : 
+		[
+			{
+				"group_id" : "0101",
+				"score" : "76.05",
+				"user_id" : "R4509238400002012100026"
+			}
+		],
+		"result_num" : 1
+	},
+	"errno" : 0,
+	"msg" : "success"
+} 
+[2020-08-21 19:36:30.4199][Info] Setup Success... 
+[2020-08-21 19:36:30.6378][Info] Start Success... 
+[2020-08-21 19:36:30.6408][Info] Server Listen at 4649 
+[2020-08-21 19:36:30.9156][Info] New Session Connected:81da72e8-bd9e-425c-90d0-f862d2a742ff, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:62162 
+[2020-08-21 19:36:30.9156][Info] New Session Connected:83a8ee86-eaaf-4fcb-b5db-c542745e0304, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:62163 
+[2020-08-21 19:36:35.3669][Info] authed res is:True 
+[2020-08-21 19:36:56.4929][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "faceRecognition",   "param": {   } } ClientIP:127.0.0.1:62162 
+[2020-08-21 19:37:03.7324][Info] {
+	"data" : 
+	{
+		"face_token" : "37e22b446094f79ed08dacfa8701d2d5",
+		"log_id" : "1598009823",
+		"result" : 
+		[
+			{
+				"group_id" : "0101",
+				"score" : "80.63",
+				"user_id" : "R4509238400002012100026"
+			}
+		],
+		"result_num" : 1
+	},
+	"errno" : 0,
+	"msg" : "success"
+} 

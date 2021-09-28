@@ -1,0 +1,7 @@
+2019-12-30 00:12:12.6338 | DEBUG | 连接MQ[192.168.1.209:5672/vh.xspdfr]成功！
+2019-12-30 00:12:12.6621 | DEBUG | 绑定队列成功！[q.xspdfr.manager.1 (xspdfr.manager.face.#) -> ex.public]
+2019-12-30 00:12:12.6621 | DEBUG | 绑定队列成功！[q.xspdfr.manager.1.error (xspdfr.manager.face.#.error) -> ex.public]
+2019-12-30 00:12:12.7399 | DEBUG | 从[q.xspdfr.manager.1]接收消息成功！msg={"msg":{"event":"xspdfr.manager.face.add.db.finish","parameter":{"group_id":"20","id":"500106111201911152210"}}}
+2019-12-30 00:12:12.8779 | INFO  | 新增人脸
+2019-12-30 00:12:16.1967 | ERROR | 人脸[500106111201911152210]注册失败
+2019-12-30 00:12:16.2068 | DEBUG | 修改结果:1

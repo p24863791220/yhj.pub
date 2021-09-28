@@ -1,0 +1,263 @@
+[2020-09-11 23:46:01.8161][Info] Setup Success... 
+[2020-09-11 23:46:01.9910][Info] Start Success... 
+[2020-09-11 23:46:01.9910][Info] Server Listen at 4649 
+[2020-09-11 23:46:02.2528][Info] New Session Connected:4015877d-a16f-48b8-814e-61541415bfa4, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:51932 
+[2020-09-11 23:46:07.2837][Info] authed res is:True 
+[2020-09-11 23:47:14.2135][Info] New Session Connected:d10a614b-a49c-4edf-861b-24c5427b7516, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:51967 
+[2020-09-11 23:47:19.8367][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "faceRecognition",   "param": {   } } ClientIP:127.0.0.1:51967 
+[2020-09-11 23:47:23.6627][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839243"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:27.1765][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "faceRecognition",   "param": {   } } ClientIP:127.0.0.1:51967 
+[2020-09-11 23:47:28.9034][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839248"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:29.0133][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839249"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:29.1353][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839249"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:29.2382][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839249"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:29.3541][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839249"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:29.4611][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839249"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:29.5640][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839249"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:32.6421][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "faceRecognition",   "param": {   } } ClientIP:127.0.0.1:51967 
+[2020-09-11 23:47:34.5339][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839254"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:34.6948][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839254"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:34.7958][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839254"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:34.9167][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839254"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:35.0336][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839255"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:35.1376][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839255"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:35.2685][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839255"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:35.3709][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839255"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:35.4689][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839255"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:35.5689][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839255"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:35.6720][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839255"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:35.7789][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839255"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:38.5279][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "faceRecognition",   "param": {   } } ClientIP:127.0.0.1:51967 
+[2020-09-11 23:47:40.1693][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839260"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:40.2937][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839260"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:40.4246][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839260"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:40.5535][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839260"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:40.6944][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839260"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:40.8144][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839260"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:40.9443][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839260"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:41.0847][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839261"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:41.1916][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839261"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:41.3175][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839261"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:47:41.4484][Info] {
+	"data" : 
+	{
+		"log_id" : "1599839261"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-11 23:48:02.8514][Info] Receive:IsHere** ClientIP:127.0.0.1:51932 
+[2020-09-11 23:52:14.8517][Info] Receive:IsHere** ClientIP:127.0.0.1:51967 
+[2020-09-11 23:53:03.8511][Info] Receive:IsHere** ClientIP:127.0.0.1:51932 
+[2020-09-11 23:57:14.8532][Info] Receive:IsHere** ClientIP:127.0.0.1:51967 
+[2020-09-11 23:58:04.8517][Info] Receive:IsHere** ClientIP:127.0.0.1:51932 

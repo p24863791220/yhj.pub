@@ -1,0 +1,32 @@
+[2020-05-31 21:50:36][Error] System.Threading.ThreadStateException: 当前线程不在单线程单元中，因此无法实例化 ActiveX 控件“edee0acc-f802-448f-bbf6-898aa28465cb”。
+   在 System.Windows.Forms.AxHost..ctor(String clsid, Int32 flags)
+   在 AxFSPLAYEROCXLib.AxFsPlayerOcx..ctor()
+   在 Ishp_VideoPluginServer.View.HwVideoForm.InitializeComponent() 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\View\HwVideoForm.Designer.cs:行号 32
+   在 Ishp_VideoPluginServer.View.HwVideoForm..ctor() 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\View\HwVideoForm.cs:行号 23
+   在 Ishp_VideoPluginServer.Common.BLL.hwServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 83
+   在 Ishp_VideoPluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 50
+   在 Ishp_VideoPluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 
+[2020-05-31 22:21:53][Error] Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 4.
+   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json)
+   在 Ishp_VideoPluginServer.Common.BLL.hwServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 82
+   在 Ishp_VideoPluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 51
+   在 Ishp_VideoPluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 
+[2020-05-31 22:22:22][Error] Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 4.
+   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json)
+   在 Ishp_VideoPluginServer.Common.BLL.hwServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 82
+   在 Ishp_VideoPluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 51
+   在 Ishp_VideoPluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 
+[2020-05-31 22:23:03][Error] Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 3.
+   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json)
+   在 Ishp_VideoPluginServer.Common.BLL.hwServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 82
+   在 Ishp_VideoPluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 51
+   在 Ishp_VideoPluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 
+[2020-05-31 22:24:48][Error] Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 3.
+   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json)
+   在 Ishp_VideoPluginServer.Common.BLL.hwServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 82
+   在 Ishp_VideoPluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 51
+   在 Ishp_VideoPluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 

@@ -1,0 +1,109 @@
+[2020-09-09 10:55:34.4611][Info] authed res is:True 
+[2020-09-09 10:55:34.9398][Info] Setup Success... 
+[2020-09-09 10:55:35.0567][Info] Start Success... 
+[2020-09-09 10:55:35.0567][Info] Server Listen at 4649 
+[2020-09-09 10:56:12.3586][Info] New Session Connected:f5d50791-d4e3-423c-941a-19064a2f0353, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:50295 
+[2020-09-09 10:56:36.0079][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "heartbeat",   "param": {   } } ClientIP:127.0.0.1:50295 
+[2020-09-09 10:57:05.6865][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "heartbeat",   "param": {   } } ClientIP:127.0.0.1:50295 
+[2020-09-09 10:57:34.3258][Info] Setup Success... 
+[2020-09-09 10:57:34.4797][Info] Start Success... 
+[2020-09-09 10:57:34.4797][Info] Server Listen at 4649 
+[2020-09-09 10:57:37.3879][Info] New Session Connected:befd3302-41ad-496d-ba3e-52edcddda909, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:50312 
+[2020-09-09 10:57:38.9829][Info] authed res is:True 
+[2020-09-09 10:57:41.8631][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "heartbeat",   "param": {   } } ClientIP:127.0.0.1:50312 
+[2020-09-09 10:58:11.1320][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "event",   "topic": "heartbeat",   "param": {   } } ClientIP:127.0.0.1:50312 
+[2020-09-09 10:58:36.3093][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "faceRecognition",   "param": {   } } ClientIP:127.0.0.1:50312 
+[2020-09-09 10:58:40.7916][Info] {
+	"data" : 
+	{
+		"log_id" : "1599620320"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-09 10:58:54.2053][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "faceRecognition",   "param": {   } } ClientIP:127.0.0.1:50312 
+[2020-09-09 10:58:55.8183][Info] {
+	"data" : 
+	{
+		"log_id" : "1599620335"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-09 11:00:32.2115][Info] Setup Success... 
+[2020-09-09 11:00:32.4194][Info] Start Success... 
+[2020-09-09 11:00:32.4224][Info] Server Listen at 4649 
+[2020-09-09 11:00:32.9710][Info] New Session Connected:3938bb87-af15-4091-aaa2-638b46a9015d, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:50362 
+[2020-09-09 11:00:37.3073][Info] authed res is:True 
+[2020-09-09 11:00:56.6403][Info] Setup Success... 
+[2020-09-09 11:00:56.7713][Info] Start Success... 
+[2020-09-09 11:00:56.7713][Info] Server Listen at 4649 
+[2020-09-09 11:00:57.4458][Info] New Session Connected:b0925534-1735-4056-a9ce-2f2099c65c21, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:50369 
+[2020-09-09 11:01:01.4933][Info] authed res is:True 
+[2020-09-09 11:01:07.2987][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "faceRecognition",   "param": {   } } ClientIP:127.0.0.1:50369 
+[2020-09-09 11:01:10.2519][Info] {
+	"data" : 
+	{
+		"log_id" : "1599620470"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-09 11:01:12.3246][Info] Receive:IsHere** ClientIP:127.0.0.1:50369 
+[2020-09-09 11:01:18.8486][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "faceRecognition",   "param": {   } } ClientIP:127.0.0.1:50369 
+[2020-09-09 11:01:20.4456][Info] {
+	"data" : 
+	{
+		"log_id" : "1599620480"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-09 11:03:16.8204][Info] Setup Success... 
+[2020-09-09 11:03:16.9513][Info] Start Success... 
+[2020-09-09 11:03:16.9553][Info] Server Listen at 4649 
+[2020-09-09 11:03:17.4930][Info] New Session Connected:4ee9029d-f0a0-4d83-9f4e-79134e7fcbfc, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:50422 
+[2020-09-09 11:03:21.7544][Info] authed res is:True 
+[2020-09-09 11:03:24.3338][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "faceRecognition",   "param": {   } } ClientIP:127.0.0.1:50422 
+[2020-09-09 11:03:26.6244][Info] {
+	"data" : 
+	{
+		"log_id" : "1599620606"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 
+[2020-09-09 11:06:12.3256][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 11:11:12.8513][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 11:16:13.8511][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 11:21:14.8514][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 11:26:14.8515][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 11:31:14.8535][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 11:36:14.8551][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 11:41:15.8515][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 11:46:16.8514][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 11:51:17.8514][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 11:56:18.8510][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 12:01:19.8520][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 12:06:19.8534][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 12:11:19.8546][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 12:16:20.8513][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 12:21:21.8517][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 12:26:22.8508][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 12:31:23.8515][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 12:36:24.8514][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 12:41:24.8518][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 12:46:24.8534][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 12:51:24.8546][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 12:56:24.8560][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 13:01:25.8510][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 13:06:26.8511][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 13:11:27.8507][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 13:16:28.8515][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 13:21:29.8517][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 13:26:29.8526][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 13:31:29.8537][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 13:36:29.8551][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 13:41:30.8508][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 13:46:31.8519][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 
+[2020-09-09 13:51:32.8513][Info] Receive:IsHere** ClientIP:127.0.0.1:50422 

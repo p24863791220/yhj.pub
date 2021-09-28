@@ -1,0 +1,8 @@
+[2020-05-30 20:37:06][Error] System.Threading.ThreadStateException: 当前线程不在单线程单元中，因此无法实例化 ActiveX 控件“edee0acc-f802-448f-bbf6-898aa28465cb”。
+   在 System.Windows.Forms.AxHost..ctor(String clsid, Int32 flags)
+   在 AxFSPLAYEROCXLib.AxFsPlayerOcx..ctor()
+   在 Ishp_VideoPluginServer.View.HwVideoForm.InitializeComponent() 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\View\HwVideoForm.Designer.cs:行号 32
+   在 Ishp_VideoPluginServer.View.HwVideoForm..ctor() 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\View\HwVideoForm.cs:行号 23
+   在 Ishp_VideoPluginServer.Common.BLL.hwServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 82
+   在 Ishp_VideoPluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 49
+   在 Ishp_VideoPluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 

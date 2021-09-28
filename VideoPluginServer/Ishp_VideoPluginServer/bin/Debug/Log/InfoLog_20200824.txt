@@ -1,0 +1,14 @@
+[2020-08-24 09:15:52.5733][Info] Setup Success... 
+[2020-08-24 09:15:53.3008][Info] Start Success... 
+[2020-08-24 09:15:53.3008][Info] Server Listen at 4649 
+[2020-08-24 09:15:57.4573][Info] authed res is:True 
+[2020-08-24 09:16:15.2343][Info] New Session Connected:5727094d-8a22-4d98-988e-9c9b0721b9c8, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:51985 
+[2020-08-24 09:16:21.3746][Info] Receive:{   "msgid": "f13aca8c-18f8-43e7-a6c7-090664008c59",   "msgtime": "2020-05-29 12:05:00",   "msgtype": "action",   "topic": "faceRecognition",   "param": {   } } ClientIP:127.0.0.1:51985 
+[2020-08-24 09:16:33.1173][Info] {
+	"data" : 
+	{
+		"log_id" : "1598231793"
+	},
+	"errno" : 1008,
+	"msg" : "get face feature fail"
+} 

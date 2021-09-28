@@ -1,0 +1,46 @@
+[2020-10-14 20:31:02][Error] Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path '', line 1, position 275.
+   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json)
+   在 Ishp_PluginServer.Common.BLL.spServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 83
+   在 Ishp_PluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 50
+   在 Ishp_PluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 
+[2020-10-14 20:31:58][Error] Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path '', line 1, position 275.
+   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json)
+   在 Ishp_PluginServer.Common.BLL.spServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 83
+   在 Ishp_PluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 50
+   在 Ishp_PluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 
+[2020-10-14 20:36:18][Error] Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path '', line 1, position 275.
+   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json)
+   在 Ishp_PluginServer.Common.BLL.spServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 83
+   在 Ishp_PluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 50
+   在 Ishp_PluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 
+[2020-10-14 20:37:37][Error] Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path '', line 1, position 275.
+   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json)
+   在 Ishp_PluginServer.Common.BLL.spServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 83
+   在 Ishp_PluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 50
+   在 Ishp_PluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 
+[2020-10-14 20:38:54][Error] Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path '', line 1, position 275.
+   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json)
+   在 Ishp_PluginServer.Common.BLL.spServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 83
+   在 Ishp_PluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 50
+   在 Ishp_PluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 
+[2020-10-14 20:40:14][Error] Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path '', line 1, position 275.
+   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json)
+   在 Ishp_PluginServer.Common.BLL.spServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 83
+   在 Ishp_PluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 50
+   在 Ishp_PluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 
+[2020-10-14 20:41:06][Error] 大华录像播放发生错误:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Ishp_PluginServer.View.DhVideoForm.dhspbf(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\View\DhVideoForm.cs:行号 107 
+[2020-10-14 20:43:02][Error] 大华录像播放发生错误:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Ishp_PluginServer.View.DhVideoForm.dhspbf(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\View\DhVideoForm.cs:行号 107 

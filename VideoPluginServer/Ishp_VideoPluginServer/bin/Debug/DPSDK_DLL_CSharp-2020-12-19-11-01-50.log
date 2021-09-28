@@ -1,0 +1,12 @@
+[1219 11:01:50.319][CMSClientMdl_for_general.cpp:199] TID 33236 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin()
+[1219 11:01:50.319][DPSDK_Core.cpp:389] TID 142864 [INFO] DPSDK_Login(): [DPSDK]IP=77.49.196.205 port=9000 name=system password=fsw651001 iType=1
+[1219 11:01:50.321][ServerSession.cpp:87] TID 33236 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 0, ip = 77.49.196.205, port = 9000
+[1219 11:01:50.321][DPSDK_Core.cpp:401] TID 142864 [INFO] DPSDK_Login(): nPDLLHandle = 2, IP = 77.49.196.205, Port = 9000, name = system, password = fsw651001,nProtocol = 2, iType = 1, szCheckBit = `Á¶ˆÁ¶¤Á¶(#
+[1219 11:01:50.321][CMSClientMdl_for_general.cpp:257] TID 33236 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin() SEND_AND_STORE_MSG
+[1219 11:01:50.322][CMSClientMdl_for_general.cpp:199] TID 33236 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin()
+[1219 11:01:50.322][PDLLDpsdk_fun.cpp:597] TID 186612 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[15] m_sequence[3]
+[1219 11:01:50.322][CMSClientMdl_for_general.cpp:257] TID 33236 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin() SEND_AND_STORE_MSG
+[1219 11:01:55.322][ServerSession.cpp:370] TID 185172 [INFO] DPSdk::DSDKSocketHandler::OnClose(): DSDKSocketHandler::OnClose() sid = 0, error = 0
+[1219 11:01:55.322][CMSClientMdl.cpp:186] TID 185172 [INFO] DPSdk::CMSClientMdl::DealWithNetClose(): [PSDK] CMSClientMdl::DealWithNetClose() sid = 0, error = 0, m_sid = 0, blogin = false
+[1219 11:01:55.322][PDLLDpsdk_fun.cpp:597] TID 186612 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[4] m_sequence[4]
+[1219 11:01:55.322][PDLLMessageQueue.cpp:524] TID 56400 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[4] pInfo->m_nSeq[4]

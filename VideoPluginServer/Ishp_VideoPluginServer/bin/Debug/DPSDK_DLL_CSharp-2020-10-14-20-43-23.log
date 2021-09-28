@@ -1,0 +1,33 @@
+[1014 20:43:23.159][DPSDK_Core.cpp:389] TID 18464 [INFO] DPSDK_Login(): [DPSDK]IP=77.49.196.205 port=9000 name=system password=fsw651001 iType=1
+[1014 20:43:23.160][PDLLDpsdk_fun.cpp:597] TID 70140 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[15] m_sequence[1]
+[1014 20:43:23.161][DPSDK_Core.cpp:401] TID 18464 [INFO] DPSDK_Login(): nPDLLHandle = 2, IP = 77.49.196.205, Port = 9000, name = system, password = fsw651001,nProtocol = 2, iType = 1, szCheckBit = 
+[1014 20:43:23.161][CMSClientMdl_for_general.cpp:199] TID 4196 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin()
+[1014 20:43:23.161][ServerSession.cpp:87] TID 4196 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 0, ip = 77.49.196.205, port = 9000
+[1014 20:43:23.162][CMSClientMdl_for_general.cpp:257] TID 4196 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin() SEND_AND_STORE_MSG
+[1014 20:43:28.164][ServerSession.cpp:370] TID 27736 [INFO] DPSdk::DSDKSocketHandler::OnClose(): DSDKSocketHandler::OnClose() sid = 0, error = 0
+[1014 20:43:28.164][CMSClientMdl.cpp:186] TID 27736 [INFO] DPSdk::CMSClientMdl::DealWithNetClose(): [PSDK] CMSClientMdl::DealWithNetClose() sid = 0, error = 0, m_sid = 0, blogin = false
+[1014 20:43:28.164][PDLLDpsdk_fun.cpp:597] TID 70140 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[4] m_sequence[2]
+[1014 20:43:28.164][PDLLMessageQueue.cpp:524] TID 21904 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[4] pInfo->m_nSeq[2]
+[1014 20:43:41.001][DPSDKPlayback.cpp:687] TID 18464 [INFO] DPSdk::DPSDKPlayback::StartPlaybackByTime(): [PSDK]StartPlaybackByTime() failed, not logined, errorCode == DPSDK_RET_SYNC_FAIL
+[1014 20:43:41.001][Playback.cpp:318] TID 18464 [INFO] CPlayback::GetRecordStreamByTime(): StartPlaybackByTime failed,szCameraId = [GJ31038] uBeginTime[1602591240], uEndTime = [1602592140]
+[1014 20:43:41.001][DPSDK_Core.cpp:1663] TID 18464 [INFO] DPSDK_GetRecordStreamByTime(): [DPSDK_CORE]szCameraId[GJ31038],nRight[1],nSource[2],nMode[1],uBeginTime[1602591240],uEndTime[1602592140],nTimeout[10000],nTrackID[0],pFun[52078D10],nRet[1011],nPlaybackSeq[0]
+[1014 20:43:41.001][DPSDK_Ext.cpp:716] TID 18464 [INFO] DPSDK_StartPlaybackByTime(): [DPSDK_EXT]DPSDK_StartPlaybackByTime CameraID=GJ31038, source=2, mode=1, nRet=1011, nSeq=0
+[1014 20:43:48.157][DPSDK_Core.cpp:70] TID 18464 [INFO] DPSDK_Destroy(): DPSDK_Destroy After GetPDLLDpsdk
+[1014 20:43:48.157][DPSDKImpl.cpp:271] TID 18464 [DEBUG] DPSdk::DPSDKEntityImpl::UnInit(): [PSDK] uninit
+[1014 20:43:48.158][PCSClientMdl.cpp:89] TID 18464 [INFO] DPSdk::PCSClientMdl::Stop(): [PSDK] PCSClientMdl::Stop
+[1014 20:43:48.158][ServerMgrMdl.cpp:54] TID 18464 [INFO] DPSdk::ServerMgrMdl::StopMdlMgr(): [PSDK] ServerMgrMdl::StopMdlMgr
+[1014 20:43:48.168][CMSClientMdl.cpp:147] TID 18464 [INFO] DPSdk::CMSClientMdl::Stop(): CMSClientMdl::Stop
+[1014 20:43:48.168][SCSClientMdl.cpp:55] TID 18464 [INFO] DPSdk::SCSClientMdl::Stop(): SCSClientMdl::Stop start
+[1014 20:43:48.369][SCSClientMdl.cpp:90] TID 18464 [INFO] DPSdk::SCSClientMdl::ClearLoginInfo(): [DPSDK]ClearLoginInfo() SAFE_DELETE(m_pISip)
+[1014 20:43:48.369][SCSClientMdl.cpp:74] TID 18464 [INFO] DPSdk::SCSClientMdl::Stop(): SCSClientMdl::Stop end
+[1014 20:43:48.379][DPSDK.cpp:67] TID 18464 [INFO] DPSdk::DPSDKFactory::ReleaseSDKEntity(): [PSDK] release DPSDKEntity 1D9DB830
+[1014 20:43:48.379][DPSDKImpl.cpp:271] TID 18464 [DEBUG] DPSdk::DPSDKEntityImpl::UnInit(): [PSDK] uninit
+[1014 20:43:48.379][CMSClientMdl.cpp:147] TID 18464 [INFO] DPSdk::CMSClientMdl::Stop(): CMSClientMdl::Stop
+[1014 20:43:48.379][CMSClientMdl.cpp:112] TID 18464 [INFO] DPSdk::CMSClientMdl::~CMSClientMdl(): [PSDK] CMSClientMdl::~CMSClientMdl
+[1014 20:43:48.379][PCSClientMdl.cpp:89] TID 18464 [INFO] DPSdk::PCSClientMdl::Stop(): [PSDK] PCSClientMdl::Stop
+[1014 20:43:48.379][PCSClientMdl.cpp:45] TID 18464 [INFO] DPSdk::PCSClientMdl::~PCSClientMdl(): [PSDK] PCSClientMdl::~PCSClientMdl
+[1014 20:43:48.379][ServerMgrMdl.cpp:54] TID 18464 [INFO] DPSdk::ServerMgrMdl::StopMdlMgr(): [PSDK] ServerMgrMdl::StopMdlMgr
+[1014 20:43:48.379][ServerMgrMdl.cpp:46] TID 18464 [INFO] DPSdk::ServerMgrMdl::~ServerMgrMdl(): [PSDK] ServerMgrMdl::~ServerMgrMdl
+[1014 20:43:48.380][SCSClientMdl.cpp:55] TID 18464 [INFO] DPSdk::SCSClientMdl::Stop(): SCSClientMdl::Stop start
+[1014 20:43:48.380][SCSClientMdl.cpp:74] TID 18464 [INFO] DPSdk::SCSClientMdl::Stop(): SCSClientMdl::Stop end
+[1014 20:43:48.380][PDLLMessageQueue.cpp:3542] TID 18464 [INFO] CPDLLMessageQueue::BreakPcs(): UnInit After BreakPcs

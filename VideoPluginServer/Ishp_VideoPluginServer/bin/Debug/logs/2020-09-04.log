@@ -1,0 +1,26 @@
+2020-09-04 23:17:53.2413 | DEBUG | 连接MQ[192.168.1.209:5672/vh.ishp.msg]成功！
+2020-09-04 23:17:53.2853 | DEBUG | 绑定队列成功！[q.agxyr.face.jgyyzd.0 (ishp.agxyr.face.#) -> ex.public]
+2020-09-04 23:17:53.2853 | DEBUG | 绑定队列成功！[q.agxyr.face.jgyyzd.0.error (ishp.agxyr.face.#.error) -> ex.public]
+2020-09-04 23:20:29.6259 | DEBUG | 连接MQ[192.168.1.77:5672/vh.ishp.msg]成功！
+2020-09-04 23:20:29.6709 | ERROR | 绑定队列未成功！详细信息:RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=406, text="PRECONDITION_FAILED - inequivalent arg 'x-max-length' for queue 'q.agxyr.face.jgyyzd.0' in vhost 'vh.ishp.msg': received the value '10000' of type 'signedint' but current is none", classId=50, methodId=10, cause=
+   在 RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   在 RabbitMQ.Client.Impl.ModelBase.QueueDeclare(String queue, Boolean passive, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.AutorecoveringModel.QueueDeclare(String queue, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   在 XSPDFRserver.Common.MqUtils.bindQueue(String aQueueName, String aExchangeName, String aBindKey) 位置 E:\人脸识别系统\tmp\xspdfr\XSPDFRserver\Common\MqUtils.cs:行号 291
+2020-09-04 23:20:29.6719 | ERROR | 绑定队列未成功！详细信息:RabbitMQ.Client.Exceptions.AlreadyClosedException: Already closed: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=406, text="PRECONDITION_FAILED - inequivalent arg 'x-max-length' for queue 'q.agxyr.face.jgyyzd.0' in vhost 'vh.ishp.msg': received the value '10000' of type 'signedint' but current is none", classId=50, methodId=10, cause=
+   在 RabbitMQ.Client.Impl.SessionBase.Transmit(Command cmd)
+   在 RabbitMQ.Client.Impl.ModelBase.ModelSend(MethodBase method, ContentHeaderBase header, Byte[] body)
+   在 RabbitMQ.Client.Framing.Impl.Model._Private_QueueDeclare(String queue, Boolean passive, Boolean durable, Boolean exclusive, Boolean autoDelete, Boolean nowait, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.ModelBase.QueueDeclare(String queue, Boolean passive, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.AutorecoveringModel.QueueDeclare(String queue, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   在 XSPDFRserver.Common.MqUtils.bindQueue(String aQueueName, String aExchangeName, String aBindKey) 位置 E:\人脸识别系统\tmp\xspdfr\XSPDFRserver\Common\MqUtils.cs:行号 291
+2020-09-04 23:20:29.7289 | DEBUG | 从[q.agxyr.face.jgyyzd.0]接收消息成功！msg={"msgid":"0c49fa54-dbce-4f7c-9037-6f4332d79053","msgtime":"2020-09-04 23:18:12","msgtype":"event","param":{"bizid":"R500119202008260001"},"topic":"ishp.agxyr.face.add.finish"}
+2020-09-04 23:20:31.7696 | INFO  | 修改信息报文:{
+	"data" : 
+	{
+		"face_token" : "cd3bb734ceff20b4df4cb4a1650f177d",
+		"log_id" : "1599232831"
+	},
+	"errno" : 0,
+	"msg" : "success"
+}

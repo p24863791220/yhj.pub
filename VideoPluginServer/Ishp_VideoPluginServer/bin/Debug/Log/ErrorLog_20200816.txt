@@ -1,0 +1,196 @@
+[2020-08-16 15:27:40][Error] 配置文件[E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\bin\Debug\Config\appPassageway.yaml]不存在！ 
+[2020-08-16 15:28:11][Error] 配置文件[E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\bin\Debug\Config\appPassageway.yaml]不存在！ 
+[2020-08-16 15:34:32][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 15:35:37][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 15:37:28][Error] Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: r. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json)
+   在 Ishp_PluginServer.Common.BLL.spServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 83
+   在 Ishp_PluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 50
+   在 Ishp_PluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 
+[2020-08-16 15:37:32][Error] Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: r. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json)
+   在 Ishp_PluginServer.Common.BLL.spServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 83
+   在 Ishp_PluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 50
+   在 Ishp_PluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 
+[2020-08-16 15:37:45][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 15:37:47][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 15:43:29][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 15:43:30][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 15:56:21][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 15:56:23][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 15:57:42][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 15:57:44][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:00:02][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:00:04][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:09:18][Error] Newtonsoft.Json.JsonReaderException: Error parsing boolean value. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseFalse()
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.ReadInternal()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   在 Newtonsoft.Json.Linq.JObject.Parse(String json)
+   在 Ishp_PluginServer.Common.BLL.spServer(String msg) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 83
+   在 Ishp_PluginServer.Common.BLL.Server_MessageReceived(WebSocketSession arg1, String arg2) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\BLL.cs:行号 50
+   在 Ishp_PluginServer.Common.WSocketServer.NewMessageReceived(WebSocketSession session, String value) 位置 E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\Common\WSocketServer.cs:行号 127 
+[2020-08-16 16:09:50][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:37:11][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:40:31][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:40:33][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:43:04][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:43:06][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:43:22][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:43:24][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:43:55][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:43:57][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:53:45][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:53:46][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:54:22][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:54:25][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:54:48][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:54:50][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:55:10][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:55:13][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:55:31][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:55:33][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:55:49][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:56:54][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:56:55][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:57:04][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:57:05][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:57:05][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:57:20][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:57:21][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:57:21][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:57:34][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:57:34][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:58:44][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:58:45][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:59:15][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:59:15][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:59:16][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:59:20][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:59:21][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 16:59:21][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 17:13:50][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 17:14:51][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 17:15:39][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 17:17:16][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 17:18:02][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 17:18:47][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 19:59:06][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 20:55:51][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 20:56:26][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 20:57:03][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 20:57:42][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 20:58:15][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 20:59:58][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:00:38][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:00:39][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:01:05][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:01:07][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:02:46][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:02:48][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:16:52][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:16:54][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:18:23][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:20:27][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:20:59][Error] 拍照异常：外部组件发生异常。 
+[2020-08-16 21:21:00][Error] 拍照异常：参数无效。 
+[2020-08-16 21:21:00][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:01][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:01][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:02][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:03][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:03][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:04][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:04][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:05][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:05][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:06][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:06][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:07][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:07][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:08][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:08][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:09][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:09][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:10][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:11][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:11][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:12][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:12][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:13][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:13][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:14][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:14][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:15][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:15][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:16][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:16][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:17][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:18][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:18][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:19][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:19][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:20][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:20][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:21][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:21][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:21:22][Error] 拍照异常：位图区域已被锁定。 
+[2020-08-16 21:22:12][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:22:13][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:04][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:05][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:13][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:14][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:25][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:26][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:36][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:37][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:38][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:39][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:40][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:41][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:42][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:43][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:43][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:44][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:45][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:46][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:47][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:48][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:49][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:49][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:50][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:51][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:52][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:53][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:54][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:55][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:55][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:56][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:57][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:58][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:24:59][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:25:00][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:25:01][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:25:02][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:25:03][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:25:08][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:25:08][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:25:54][Error] Failed to start! 
+[2020-08-16 21:29:27][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:29:29][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:29:49][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:29:51][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:30:07][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 21:30:08][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 
+[2020-08-16 23:10:00][Error]  Bitmap转byte失败:未将对象引用设置到对象的实例。 

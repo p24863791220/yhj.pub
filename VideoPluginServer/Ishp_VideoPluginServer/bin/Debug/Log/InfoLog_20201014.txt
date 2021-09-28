@@ -1,0 +1,68 @@
+[2020-10-14 20:30:31.5096][Info] Setup Success... 
+[2020-10-14 20:30:31.7475][Info] Start Success... 
+[2020-10-14 20:30:31.7475][Info] Server Listen at 4649 
+[2020-10-14 20:30:35.0194][Info] New Session Connected:722861d1-ca08-48fa-bb06-a94b04cd2c68, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:50132 
+[2020-10-14 20:30:36.9972][Info] authed res is:True 
+[2020-10-14 20:31:01.4791][Info] New Session Connected:ce6c7a0c-f80c-4795-89f6-fe6059fb4726, Path:/lcj, Host:192.168.1.137:4649, IP:192.168.1.177:54155 
+[2020-10-14 20:31:02.5074][Info] Receive:"{\"msgid\":\"0c55b629-5ed6-4cb1-8d17-3efb8469d9c2\",\"msgtime\":\"2020-10-14 20:31:02\",\"msgtype\":\"action\",\"topic\":\"video.dahua.replay\",\"param\":{\"cameraid\":\"GJ31038\",\"channel\":\"0\",\"startTime\":\"2020-10-13 20:14:00\",\"endTime\":\"2020-10-13 20:29:00\"}}" ClientIP:192.168.1.177:54155 
+[2020-10-14 20:31:46.7520][Info] Receive:IsHere** ClientIP:127.0.0.1:50132 
+[2020-10-14 20:31:49.3824][Info] Session Close:ClientClosing, Path:/lcj, IP:192.168.1.177:54155 
+[2020-10-14 20:31:57.5913][Info] New Session Connected:88faa02d-02a9-4af0-b78d-214ed22a3b20, Path:/, Host:192.168.1.137:4649, IP:192.168.1.177:54225 
+[2020-10-14 20:31:58.5967][Info] Receive:"{\"msgid\":\"12a72701-fb06-479e-a263-9a11d2339cf0\",\"msgtime\":\"2020-10-14 20:31:58\",\"msgtype\":\"action\",\"topic\":\"video.dahua.replay\",\"param\":{\"cameraid\":\"GJ31038\",\"channel\":\"0\",\"startTime\":\"2020-10-13 20:14:00\",\"endTime\":\"2020-10-13 20:29:00\"}}" ClientIP:192.168.1.177:54225 
+[2020-10-14 20:32:11.8305][Info] Setup Success... 
+[2020-10-14 20:32:11.9914][Info] Start Success... 
+[2020-10-14 20:32:11.9934][Info] Server Listen at 4649 
+[2020-10-14 20:32:13.0648][Info] New Session Connected:f76f96ff-b416-4145-85d8-f1f02f77997b, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:50231 
+[2020-10-14 20:32:16.6825][Info] authed res is:True 
+[2020-10-14 20:32:47.4335][Info] authed res is:True 
+[2020-10-14 20:32:47.6104][Info] Setup Success... 
+[2020-10-14 20:32:47.7013][Info] Start Success... 
+[2020-10-14 20:32:47.7013][Info] Server Listen at 4649 
+[2020-10-14 20:33:06.3618][Info] New Session Connected:6c6720d1-95e4-458c-83ca-bc41e623ca7c, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:50265 
+[2020-10-14 20:33:31.2883][Info] New Session Connected:b8fde708-6afe-499b-8190-b7bda83b1c6d, Path:/, Host:192.168.1.137:4649, IP:192.168.1.177:54341 
+[2020-10-14 20:33:32.3107][Info] Receive:"{\"msgid\":\"13b5269a-3467-46d8-a4af-a060dd9bf2a0\",\"msgtime\":\"2020-10-14 20:33:32\",\"msgtype\":\"action\",\"topic\":\"video.dahua.replay\",\"param\":{\"cameraid\":\"GJ31038\",\"channel\":\"0\",\"startTime\":\"2020-10-13 20:14:00\",\"endTime\":\"2020-10-13 20:29:00\"}}" ClientIP:192.168.1.177:54341 
+[2020-10-14 20:36:47.4705][Info] Receive:IsHere** ClientIP:127.0.0.1:50265 
+[2020-10-14 20:37:14.0981][Info] authed res is:True 
+[2020-10-14 20:37:14.2300][Info] Setup Success... 
+[2020-10-14 20:37:14.3309][Info] Start Success... 
+[2020-10-14 20:37:14.3309][Info] Server Listen at 4649 
+[2020-10-14 20:37:17.5149][Info] New Session Connected:3d484b97-1853-4664-924d-90b97c6a753d, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:50553 
+[2020-10-14 20:37:18.1006][Info] New Session Connected:cbc5ed65-22c1-4232-98fb-a41a5b951778, Path:/, Host:192.168.1.137:4649, IP:192.168.1.177:54626 
+[2020-10-14 20:37:22.8616][Info] Receive:"{\"msgid\":\"e4158a0e-67bb-4cf6-ba30-46dfd3f8819c\",\"msgtime\":\"2020-10-14 20:37:19\",\"msgtype\":\"action\",\"topic\":\"video.dahua.replay\",\"param\":{\"cameraid\":\"GJ31038\",\"channel\":\"0\",\"startTime\":\"2020-10-13 20:14:00\",\"endTime\":\"2020-10-13 20:29:00\"}}" ClientIP:192.168.1.177:54626 
+[2020-10-14 20:38:07.6009][Info] Setup Success... 
+[2020-10-14 20:38:07.7878][Info] Start Success... 
+[2020-10-14 20:38:07.7908][Info] Server Listen at 4649 
+[2020-10-14 20:38:08.4774][Info] authed res is:True 
+[2020-10-14 20:38:11.5115][Info] New Session Connected:567be110-2da4-4c2f-9ead-11f342761253, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:50605 
+[2020-10-14 20:38:13.0756][Info] New Session Connected:218da432-7a5d-4bc5-a4ab-0c77ccba38bf, Path:/, Host:192.168.1.137:4649, IP:192.168.1.177:54699 
+[2020-10-14 20:38:16.8662][Info] Receive:"{\"msgid\":\"c6765d2b-f367-4e4f-a538-654b6f9d0536\",\"msgtime\":\"2020-10-14 20:38:14\",\"msgtype\":\"action\",\"topic\":\"video.dahua.replay\",\"param\":{\"cameraid\":\"GJ31038\",\"channel\":\"0\",\"startTime\":\"2020-10-13 20:14:00\",\"endTime\":\"2020-10-13 20:29:00\"}}" ClientIP:192.168.1.177:54699 
+[2020-10-14 20:39:09.4847][Info] Setup Success... 
+[2020-10-14 20:39:09.6615][Info] Start Success... 
+[2020-10-14 20:39:09.6615][Info] Server Listen at 4649 
+[2020-10-14 20:39:10.5250][Info] New Session Connected:ba377cef-81b0-4e41-8adc-dfa5be5e9138, Path:/, Host:192.168.1.137:4649, IP:192.168.1.177:54762 
+[2020-10-14 20:39:11.4774][Info] New Session Connected:d6c4d8d8-88f3-4eaf-9ab0-47571a9e3b77, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:50666 
+[2020-10-14 20:39:14.4346][Info] authed res is:True 
+[2020-10-14 20:39:14.4346][Info] Receive:"{\"msgid\":\"a234e321-9b70-41a7-9473-7271fed5afaf\",\"msgtime\":\"2020-10-14 20:39:11\",\"msgtype\":\"action\",\"topic\":\"video.dahua.replay\",\"param\":{\"cameraid\":\"GJ31038\",\"channel\":\"0\",\"startTime\":\"2020-10-13 20:14:00\",\"endTime\":\"2020-10-13 20:29:00\"}}" ClientIP:192.168.1.177:54762 
+[2020-10-14 20:40:16.1214][Info] Session Close:ClientClosing, Path:/, IP:192.168.1.177:54762 
+[2020-10-14 20:40:20.7745][Info] New Session Connected:7006c385-7fc7-4376-960a-b34e5f4d596e, Path:/, Host:192.168.1.137:4649, IP:192.168.1.177:54849 
+[2020-10-14 20:40:27.6823][Info] Receive:{"msgid":"603cad83-c1e7-4b68-aafc-ea285f59fd02","msgtime":"2020-10-14 20:40:21","msgtype":"action","topic":"video.dahua.replay","param":{"cameraid":"GJ31038","channel":"0","startTime":"2020-10-13 20:14:00","endTime":"2020-10-13 20:29:00"}} ClientIP:192.168.1.177:54849 
+[2020-10-14 20:40:40.6003][Info] 大华视频初始化成功 
+[2020-10-14 20:40:45.6112][Info] 登录失败，错误码：3 
+[2020-10-14 20:41:07.3347][Info] 大华OCX控件调用发生错误:-1 
+[2020-10-14 20:41:42.3491][Info] Setup Success... 
+[2020-10-14 20:41:42.5100][Info] Start Success... 
+[2020-10-14 20:41:42.5100][Info] Server Listen at 4649 
+[2020-10-14 20:41:43.0196][Info] New Session Connected:d52e3266-de6e-4bdd-8c2b-85f24819fc19, Path:/lcj%E7%BD%91%E9%A1%B5, Host:127.0.0.1:4649, IP:127.0.0.1:50795 
+[2020-10-14 20:41:44.5797][Info] authed res is:True 
+[2020-10-14 20:41:47.1181][Info] New Session Connected:93e832f1-960d-4494-b5a4-f48458ea9cf1, Path:/, Host:192.168.1.137:4649, IP:192.168.1.177:54936 
+[2020-10-14 20:41:49.2838][Info] Receive:IsHere** ClientIP:127.0.0.1:50795 
+[2020-10-14 20:41:50.9078][Info] Receive:{"msgid":"c7ff616d-5825-4522-ae87-c0176cb4fdd1","msgtime":"2020-10-14 20:41:48","msgtype":"action","topic":"video.dahua.replay","param":{"cameraid":"GJ31038","channel":"0","startTime":"2020-10-13 20:14:00","endTime":"2020-10-13 20:29:00"}} ClientIP:192.168.1.177:54936 
+[2020-10-14 20:41:54.3736][Info] 大华视频初始化成功 
+[2020-10-14 20:41:59.3815][Info] 登录失败，错误码：3 
+[2020-10-14 20:43:03.5908][Info] 大华OCX控件调用发生错误:-1 
+[2020-10-14 20:43:09.8269][Info] Session Close:ClientClosing, Path:/, IP:192.168.1.177:54936 
+[2020-10-14 20:43:15.1127][Info] New Session Connected:f08a5d1b-9098-46ee-a8ed-21aef7c122e7, Path:/, Host:192.168.1.137:4649, IP:192.168.1.177:55032 
+[2020-10-14 20:43:22.1113][Info] Receive:{"msgid":"cba81253-affb-4c96-a89e-8bb0c687f0e7","msgtime":"2020-10-14 20:43:16","msgtype":"action","topic":"video.dahua.replay","param":{"cameraid":"GJ31038","channel":"0","starttime":"2020-10-13 20:14:00","endtime":"2020-10-13 20:29:00"}} ClientIP:192.168.1.177:55032 
+[2020-10-14 20:43:23.1577][Info] 大华视频初始化成功 
+[2020-10-14 20:43:28.1646][Info] 登录失败，错误码：3 
+[2020-10-14 20:43:41.0016][Info] 大华OCX控件调用发生错误:-1 

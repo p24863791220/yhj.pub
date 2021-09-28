@@ -1,0 +1,14 @@
+[2020-09-07 14:12:34][Error] 配置文件[E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\bin\Debug\Config\appServer.yaml]读取错误！ 
+[2020-09-07 14:12:36][Error] 配置文件[E:\git\csharp\ishp\Ishp_VideoPluginServer\Ishp_VideoPluginServer\bin\Debug\Config\appServer.yaml]读取错误！ 
+[2020-09-07 14:19:03][Error] 绑定队列未成功！详细信息:RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=406, text="PRECONDITION_FAILED - inequivalent arg 'x-max-length' for queue 'q.agxyr.face.jgyyzd.0' in vhost 'vh.ishp.msg': received the value '10000' of type 'signedint' but current is none", classId=50, methodId=10, cause=
+   在 RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   在 RabbitMQ.Client.Impl.ModelBase.QueueDeclare(String queue, Boolean passive, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.AutorecoveringModel.QueueDeclare(String queue, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   在 XSPDFRserver.Common.MqUtils.bindQueue(String aQueueName, String aExchangeName, String aBindKey) 位置 E:\人脸识别系统\tmp\xspdfr\XSPDFRserver\Common\MqUtils.cs:行号 291 
+[2020-09-07 14:19:04][Error] 绑定队列未成功！详细信息:RabbitMQ.Client.Exceptions.AlreadyClosedException: Already closed: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=406, text="PRECONDITION_FAILED - inequivalent arg 'x-max-length' for queue 'q.agxyr.face.jgyyzd.0' in vhost 'vh.ishp.msg': received the value '10000' of type 'signedint' but current is none", classId=50, methodId=10, cause=
+   在 RabbitMQ.Client.Impl.SessionBase.Transmit(Command cmd)
+   在 RabbitMQ.Client.Impl.ModelBase.ModelSend(MethodBase method, ContentHeaderBase header, Byte[] body)
+   在 RabbitMQ.Client.Framing.Impl.Model._Private_QueueDeclare(String queue, Boolean passive, Boolean durable, Boolean exclusive, Boolean autoDelete, Boolean nowait, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.ModelBase.QueueDeclare(String queue, Boolean passive, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.AutorecoveringModel.QueueDeclare(String queue, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   在 XSPDFRserver.Common.MqUtils.bindQueue(String aQueueName, String aExchangeName, String aBindKey) 位置 E:\人脸识别系统\tmp\xspdfr\XSPDFRserver\Common\MqUtils.cs:行号 291 
