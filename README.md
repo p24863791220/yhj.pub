@@ -11,12 +11,10 @@ FF试作用ICX-0412主板功能测	编程语言：Visual basic
 反制系统接入服务	编程语言：C# winform tcp/udp ,HTTP等
 
 螺丝自动锁付	年份：2021
-VideoPluginServer	年份：2020
-EBOOK无线功能测试	年份：2011
-FF试作用ICX-0412主板功能测	年份：2010
-反制系统接入服务	年份：2021
-
-
+VideoPluginServer	年份：2019
+EBOOK无线功能测试	年份：2012
+FF试作用ICX-0412主板功能测	年份：2011
+反制系统接入服务	年份：2020
 
 
 
