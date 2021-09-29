@@ -1,12 +1,27 @@
-螺丝自动锁付（图像定位，偏移量传给机械手，与PLC通信，完全自动螺丝锁付，并保存多机种配方和生产数据	编程语言：C# opencv，nuget开源库等
-VideoPluginServer（MQ,TCP,UDP等方式监听消息，根椐指令控制硬件的状态	编程语言：C# winform tcp/udp MQ,HTTP等
+螺丝自动锁付	功能:图像定位，偏移检测传给机械手，PLC，完全自动螺丝锁付，保存多机种配方和生产数据	
+VideoPluginServer	功能:MQ,TP,UDP等方式监听消息，根椐指令控制硬件的状态
+EBOOK无线功能测试	 功能:电木制作的针板治具，工控主机，频普分析仪, 示波器,USB接口的GPIB卡等
+FF试作用ICX-0412主板功能测	功能:针板加排线夹治具，电压表，音频分析仪，示波器,PCI IO板卡，GPIB 488.2等
+反制系统接入服务	功能:定时接收探测信号，解码16进制数据通过HTTP API接口发送到服务器保存
 
-EBOOK无线功能测试 	硬件（电木制作的针板治具，工控主机，频普分析仪, 示波器,USB接口的GPIB卡等）	编程语言：Visual basic
-FF试作用ICX-0412主板功能测	所用仪器有（电木制作的针板治具，电压表，音频分析仪，示波器,PCI IO板卡，GPIB 488.2等）	编程语言：Visual basic
-反制系统接入服务	定时接收探测信号，解码16进制数据通过HTTP API接口发送到服务器数据	编程语言：C# winform tcp/udp ,HTTP等
+螺丝自动锁付	编程语言：C# opencv，nuget开源库等
+VideoPluginServer	编程语言：C# winform tcp/udp MQ,HTTP等
+EBOOK无线功能测试	编程语言：Visual basic
+FF试作用ICX-0412主板功能测	编程语言：Visual basic
+反制系统接入服务	编程语言：C# winform tcp/udp ,HTTP等
+
+螺丝自动锁付	年份：2021
+VideoPluginServer	年份：2020
+EBOOK无线功能测试	年份：2011
+FF试作用ICX-0412主板功能测	年份：2010
+反制系统接入服务	年份：2021
+
+
+
+
 
 部分代码：	
-/// <summary>
+       /// <summary>
         /// 解析无线电侦测上报的数据
         /// </summary>
         /// <param name="data1">数据缓存</param>
