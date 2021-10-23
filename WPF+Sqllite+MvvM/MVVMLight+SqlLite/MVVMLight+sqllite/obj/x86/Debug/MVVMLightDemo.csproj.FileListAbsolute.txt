@@ -1,0 +1,263 @@
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\Assets\TextBox.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\Content\FruitInfoView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MainWindow.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BothWayBindView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\CommandView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\MessengerRegisterView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\MessengerSenderView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\WelcomeView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\Content\FruitInfoView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MainWindow.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BindingAdvancedView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BindingFormView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BothWayBindView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\CommandAdvanceView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\CommandView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\MessengerRegisterView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\MessengerSenderView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\WelcomeView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\App.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo_MarkupCompile.cache
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo_MarkupCompile.lref
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\App.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BindingFormView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\CommandAdvanceView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.exe
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.pdb
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\MVVMLightDemo.exe.config
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\MVVMLightDemo.exe
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\MVVMLightDemo.pdb
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.dll
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\System.Windows.Interactivity.dll
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.pdb
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.xml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BindingAdvancedView.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.g.resources
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.Properties.Resources.resources
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.csproj.GenerateResource.Cache
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BindBasic.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\BindBasic.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\PackagedValidate.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\PackagedValidate.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\DispatcherHelper.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\DispatcherHelper.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\DispatchBasic.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\DispatchBasic.baml
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.csprojResolveAssemblyReference.cache
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\MessagerForView.g.cs
+E:\Web Project\MyProject\MVVMLightDemo\MVVMLightDemo\obj\x86\Debug\View\MessagerForView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\MVVMLightDemo.exe.config
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\MVVMLightDemo.exe
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\MVVMLightDemo.pdb
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\System.Windows.Interactivity.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\Assets\TextBox.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\Content\FruitInfoView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\MainWindow.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\BindBasic.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\BothWayBindView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\CommandView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\MessengerRegisterView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\MessengerSenderView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\WelcomeView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\Content\FruitInfoView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\MainWindow.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\BindBasic.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\BindingAdvancedView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\BindingFormView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\BothWayBindView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\CommandAdvanceView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\CommandView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\DispatchBasic.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\DispatcherHelper.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\MessengerRegisterView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\MessengerSenderView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\MessagerForView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\PackagedValidate.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\WelcomeView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\App.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo_MarkupCompile.cache
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo_MarkupCompile.lref
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\App.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\BindingAdvancedView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\BindingFormView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\CommandAdvanceView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\DispatchBasic.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\DispatcherHelper.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\MessagerForView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\PackagedValidate.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.g.resources
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.Properties.Resources.resources
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.csproj.GenerateResource.cache
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.csproj.CoreCompileInputs.cache
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.csproj.CopyComplete
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.exe
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\MVVMLightDemo.pdb
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\sqlliteDemo.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\obj\x86\Debug\View\sqlliteDemo.baml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\EntityFramework.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\EntityFramework.SqlServer.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\System.Data.SQLite.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\System.Data.SQLite.EF6.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\System.Data.SQLite.Linq.dll
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\EntityFramework.xml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\EntityFramework.SqlServer.xml
+D:\360安全浏览器下载\免费数据库\MVVMLightDemo.2017.4.16\MVVMLightDemo\bin\Debug\System.Data.SQLite.xml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\MVVMLightDemo.exe.config
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\MVVMLightDemo.exe
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\MVVMLightDemo.pdb
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\EntityFramework.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\EntityFramework.SqlServer.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\System.Data.SQLite.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\System.Data.SQLite.EF6.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\System.Data.SQLite.Linq.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\System.Windows.Interactivity.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\EntityFramework.xml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\EntityFramework.SqlServer.xml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\System.Data.SQLite.xml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\Assets\TextBox.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\Content\FruitInfoView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MainWindow.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BindBasic.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BothWayBindView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\CommandView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\MessengerRegisterView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\MessengerSenderView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\sqlliteDemo.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\WelcomeView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\Content\FruitInfoView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MainWindow.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BindBasic.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BindingAdvancedView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BindingFormView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BothWayBindView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\CommandAdvanceView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\CommandView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\DispatchBasic.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\DispatcherHelper.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\MessengerRegisterView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\MessengerSenderView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\MessagerForView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\PackagedValidate.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\sqlliteDemo.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\WelcomeView.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\App.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo_MarkupCompile.cache
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo_MarkupCompile.lref
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\App.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BindingAdvancedView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BindingFormView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\CommandAdvanceView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\DispatchBasic.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\DispatcherHelper.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\MessagerForView.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\PackagedValidate.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.g.resources
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.Properties.Resources.resources
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.csproj.GenerateResource.cache
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.csproj.CoreCompileInputs.cache
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.csproj.CopyComplete
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.exe
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.pdb
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\Assets\Datagrid.baml
+D:\360安全浏览器下载\免费数据库\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.csproj.AssemblyReference.cache
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\MVVMLightDemo.exe.config
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\MVVMLightDemo.exe
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\MVVMLightDemo.pdb
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\EntityFramework.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\EntityFramework.SqlServer.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\System.Data.SQLite.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\System.Data.SQLite.EF6.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\System.Data.SQLite.Linq.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\System.Windows.Interactivity.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\EntityFramework.xml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\EntityFramework.SqlServer.xml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\System.Data.SQLite.xml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.csproj.AssemblyReference.cache
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\Assets\Datagrid.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\Assets\TextBox.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\Content\FruitInfoView.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MainWindow.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BindBasic.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BothWayBindView.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\CommandView.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\MessengerRegisterView.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\MessengerSenderView.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\sqlliteDemo.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\WelcomeView.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\Content\FruitInfoView.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MainWindow.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BindBasic.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BindingAdvancedView.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BindingFormView.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BothWayBindView.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\CommandAdvanceView.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\CommandView.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\DispatchBasic.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\DispatcherHelper.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\MessengerRegisterView.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\MessengerSenderView.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\MessagerForView.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\PackagedValidate.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\sqlliteDemo.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\WelcomeView.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\App.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo_MarkupCompile.cache
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo_MarkupCompile.lref
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\App.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BindingAdvancedView.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\BindingFormView.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\CommandAdvanceView.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\DispatchBasic.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\DispatcherHelper.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\MessagerForView.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\View\PackagedValidate.baml
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.g.resources
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.Properties.Resources.resources
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.csproj.GenerateResource.cache
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.csproj.CoreCompileInputs.cache
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.csproj.CopyComplete
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.exe
+D:\gitpub\WPF+Sqllite+MvvM\MVVMLight+SqlLite\MVVMLight+sqllite\obj\x86\Debug\MVVMLightDemo.pdb

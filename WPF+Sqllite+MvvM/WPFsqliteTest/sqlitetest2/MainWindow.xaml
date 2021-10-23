@@ -1,0 +1,134 @@
+﻿<Window x:Class="sqlitetest2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sqlitetest2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Background="White">
+            <Button Name="btnAdd" Content="增加一条数据" Command="{Binding AddCommand}" 
+                    Background="White" Foreground="Orange" FontSize="16" 
+                    FontWeight="Bold" Margin=" 10 0 0 0" BorderThickness="0"></Button>
+            <Button Name="btnDec" Content="减少一条数据" Command="{Binding DecCommand}"
+                    Background="White" Foreground="Orange" FontSize="16" 
+                    FontWeight="Bold"  Margin=" 10 0 0 0" BorderThickness="1 0 0 0" 
+                    Padding="10 0 0 0 "
+                    ></Button>
+        </StackPanel>
+        <DataGrid Name="datagv" Grid.Row="1"  AutoGenerateColumns="False" CanUserDeleteRows="False" 
+                  CanUserAddRows="False" Margin="0.4" FontSize="16" SelectionUnit="Cell" HeadersVisibility="Column" 
+                  LoadingRow="datagv_LoadingRow"  HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" 
+                  Background="White" BorderBrush="#FF0F7DE8"  ItemsSource="{Binding UserBind}" 
+                  HorizontalGridLinesBrush="#FFE6DBDB" VerticalGridLinesBrush="#FFE6DBDB" >
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="FontFamily" Value="微软雅黑"/>
+                    <Setter Property="Background" Value="#015FB5"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="FontSize" Value="16" />
+                    <Setter Property="Height" Value="Auto" />
+                    <Setter Property="BorderThickness" Value="1" />
+                    <Setter Property="BorderBrush" Value="White" />
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+            <DataGrid.CellStyle>
+                <Style TargetType="DataGridCell" >
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Background" Value="White"/>
+                            <Setter Property="Foreground" Value="Red"/>
+                            <Setter Property="BorderBrush" Value="Red"/>
+                            <Setter Property="BorderThickness" Value="1"/>
+                        </Trigger>
+                        <Trigger Property="Background" Value="#EBEBEC">
+                            <Setter Property="IsEnabled" Value="False"/>
+                            <Setter Property="BorderBrush" Value="Red"/>
+                            <Setter Property="BorderThickness" Value="5"/>
+                        </Trigger>
+
+                    </Style.Triggers>
+
+                    <!--<Setter Property="IsEnabled" Value="True"/>-->
+                </Style>
+            </DataGrid.CellStyle>
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Width="60"  Header="序号"  IsReadOnly="True">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type DataGridRow}}, Path=Header}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn  Width="320" Header="用户名" >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBox Name="txtSampleNum" Text="{Binding userName,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" 
+                                     IsReadOnly="False" 
+                                     TextAlignment="Left" VerticalContentAlignment="Center" 
+                                     ></TextBox>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="60"  Header="密码" >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Border Background="#EBEBEC">
+                                <TextBlock  Foreground="Red" Text="{Binding Pwd,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                            </Border>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Width="200"   Header="时间"  IsReadOnly="True">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Ct,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+
+                <DataGridTemplateColumn Header="操作" Width="*" SortMemberPath="IsSelected" >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <Button Width="120" Height="30" 
+                                        CommandParameter="{Binding ID}" 
+                                        Command="{Binding DataContext.SubmitCommand,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=DataGrid}}"
+                                        >
+                                    <Button.Style>
+                                        <Style TargetType="Button">
+                                            <Setter Property="Content" Value="提交" />
+                                            <Setter Property="IsEnabled" Value="False" />
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Path=IsSubmit, Mode=TwoWay}" Value="N">
+                                                    <Setter Property="Content" Value="提交" />
+                                                    <Setter Property="IsEnabled" Value="True" />
+                                                    <Setter Property="Background" Value="#015FB5" />
+                                                    <Setter Property="Foreground" Value="White" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Path=IsSubmit, Mode=TwoWay}" Value="Y">
+                                                    <Setter Property="Content" Value="已提交" />
+                                                    <!--<Setter Property="Background" Value="Blue"></Setter>-->
+                                                    <Setter Property="Foreground" Value="Red"></Setter>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Button.Style>
+                                </Button>
+                            </StackPanel>
+
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

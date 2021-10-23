@@ -1,0 +1,74 @@
+﻿<Window x:Class="WPF_MVVM_Demo1.View.UserManage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_MVVM_Demo1.View"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        xmlns:vm="clr-namespace:WPF_MVVM_Demo1.ViewModel"
+        mc:Ignorable="d"
+        Title="UserManage" Height="400" Width="600">
+    <Window.DataContext>
+        <vm:UserViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <DataGrid Grid.Row="0" x:Name="userGrid" IsReadOnly="True" SelectionUnit="FullRow"  AutoGenerateColumns="False" ItemsSource="{Binding ShowList,Mode=TwoWay}" CanUserAddRows="False"  >
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="SelectionChanged" >
+                    <i:InvokeCommandAction Command="{Binding SelectionChangedCommand}" CommandParameter="{Binding ElementName=userGrid}" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding ID}" Header="编号"/>
+                <DataGridTextColumn Binding="{Binding Name}" Header="姓名" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Age}" Header="年龄"/>
+                <DataGridTextColumn Binding="{Binding Sex}" Header="性别" Width="60"/>
+                <DataGridTextColumn Binding="{Binding Remarks}" Header="备注" Width="172"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Content="新增" Command="{Binding AddCommand }"></Button>
+            <Button Grid.Column="1" Content="修改" Command="{Binding UpdateCommand}"></Button>
+            <Button Grid.Column="2" Content="删除" Command="{Binding DeleteCommand}"></Button>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Label Content="编号"></Label>
+            <TextBox Grid.Column="1" Name="txtId" Text="{Binding ID}"></TextBox>
+            <Label   Grid.Column="2" Content="姓名"></Label>
+            <TextBox Grid.Column="3" Name="txtName" Text="{Binding Name,Mode=TwoWay}"></TextBox>
+
+            <Label Grid.Row="1" Content="年龄"></Label>
+            <TextBox Grid.Row="1" Grid.Column="1" Name="txtAge" Text="{Binding Age}"></TextBox>
+            <Label Grid.Row="1"   Grid.Column="2" Content="性别"></Label>
+            <TextBox Grid.Row="1" Grid.Column="3" Name="txtSex" Text="{Binding Sex}"></TextBox>
+        </Grid>
+        
+        
+    </Grid>
+</Window>

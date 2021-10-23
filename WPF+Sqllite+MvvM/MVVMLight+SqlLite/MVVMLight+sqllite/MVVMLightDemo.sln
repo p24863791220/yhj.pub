@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLight", "MVVMLight.csproj", "{5AF6E511-579E-4C80-8027-64CD57F9086A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sqlite", "..\..\WPFsqliteTest\sqlitetest2\sqlite.csproj", "{EBFBD42A-DBCB-4E73-B6DD-7974396C3BD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_MVVM", "..\..\WPF_MVVM_Demo1\WPF_MVVM_Demo1\WPF_MVVM.csproj", "{58710B60-6A79-42FB-B736-7266E6465444}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AF6E511-579E-4C80-8027-64CD57F9086A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5AF6E511-579E-4C80-8027-64CD57F9086A}.Debug|x86.ActiveCfg = Debug|x86
+		{5AF6E511-579E-4C80-8027-64CD57F9086A}.Debug|x86.Build.0 = Debug|x86
+		{5AF6E511-579E-4C80-8027-64CD57F9086A}.Release|Any CPU.ActiveCfg = Release|x86
+		{5AF6E511-579E-4C80-8027-64CD57F9086A}.Release|x86.ActiveCfg = Release|x86
+		{5AF6E511-579E-4C80-8027-64CD57F9086A}.Release|x86.Build.0 = Release|x86
+		{EBFBD42A-DBCB-4E73-B6DD-7974396C3BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBFBD42A-DBCB-4E73-B6DD-7974396C3BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBFBD42A-DBCB-4E73-B6DD-7974396C3BD6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EBFBD42A-DBCB-4E73-B6DD-7974396C3BD6}.Debug|x86.Build.0 = Debug|Any CPU
+		{EBFBD42A-DBCB-4E73-B6DD-7974396C3BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBFBD42A-DBCB-4E73-B6DD-7974396C3BD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBFBD42A-DBCB-4E73-B6DD-7974396C3BD6}.Release|x86.ActiveCfg = Release|Any CPU
+		{EBFBD42A-DBCB-4E73-B6DD-7974396C3BD6}.Release|x86.Build.0 = Release|Any CPU
+		{58710B60-6A79-42FB-B736-7266E6465444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58710B60-6A79-42FB-B736-7266E6465444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58710B60-6A79-42FB-B736-7266E6465444}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{58710B60-6A79-42FB-B736-7266E6465444}.Debug|x86.Build.0 = Debug|Any CPU
+		{58710B60-6A79-42FB-B736-7266E6465444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58710B60-6A79-42FB-B736-7266E6465444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58710B60-6A79-42FB-B736-7266E6465444}.Release|x86.ActiveCfg = Release|Any CPU
+		{58710B60-6A79-42FB-B736-7266E6465444}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F113C05-29C5-447C-9E3C-BF2BBB4CBB58}
+	EndGlobalSection
+EndGlobal

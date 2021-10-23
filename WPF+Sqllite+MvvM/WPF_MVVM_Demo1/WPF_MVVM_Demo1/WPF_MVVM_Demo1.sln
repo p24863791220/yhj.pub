@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_MVVM_Demo1", "WPF_MVVM_Demo1.csproj", "{58710B60-6A79-42FB-B736-7266E6465444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_MVVM_登录demo", "..\WPF_MVVM_登录demo\WPF_MVVM_登录demo.csproj", "{88ED075C-E2DE-4EF7-8594-A13BA0E24EF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58710B60-6A79-42FB-B736-7266E6465444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58710B60-6A79-42FB-B736-7266E6465444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58710B60-6A79-42FB-B736-7266E6465444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58710B60-6A79-42FB-B736-7266E6465444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88ED075C-E2DE-4EF7-8594-A13BA0E24EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88ED075C-E2DE-4EF7-8594-A13BA0E24EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88ED075C-E2DE-4EF7-8594-A13BA0E24EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88ED075C-E2DE-4EF7-8594-A13BA0E24EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3DF0938-86A6-42A8-93F5-2D8208E613AE}
+	EndGlobalSection
+EndGlobal
